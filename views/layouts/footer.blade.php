@@ -1,3 +1,9 @@
+@php
+	$nav_path = $_ENV['MIX_MODE'] == 'development'
+		? $_ENV['MIX_LOCALHOST']
+		: $_ENV['MIX_PUBLIC_DOMAIN']
+	;
+@endphp
 <div class="footer">
 	<div class="container">
 		<div class="row">
@@ -17,19 +23,19 @@
 		<div class="row align-items-center">
 			<div class="col-lg-3">
 				<div class="footer-box">
-					<a href="#"><img class="logo" src="assets/img/logo.png" alt=""> </a>
+					<a href="#"><img class="logo" src="{{ assets('img/logo.png') }}" alt=""> </a>
 				</div>
 			</div>
 			<div class="col-lg-9">
 				<div class="footer-box">
 					<ul class="footer-link">
-						<li><a href="#">About us</a></li>
+						<li><a href="{{ $nav_path }}">Inicio</a></li>
 						<li>|</li>
-						<li><a href="">How it works</a></li>
+						<li><a href="{{ $nav_path }}nosotros">Nosotros</a></li>
 						<li>|</li>
-						<li><a href="">FAQ</a></li>
+						<li><a href="{{ $nav_path }}contacto">Contacto</a></li>
 						<li>|</li>
-						<li><a href="">Contact</a></li>
+						<li><a href="{{ $nav_path }}aviso-privacidad">Aviso de privacidad</a></li>
 					</ul>
 				</div>
 			</div>

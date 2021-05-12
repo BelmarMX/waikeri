@@ -24,3 +24,16 @@ function assets($path)
 
 	return $assets.'/'.$path;
 }
+
+function url_contains($url_trace)
+{
+	$request = $_SERVER['REQUEST_URI'];
+	if( strpos($request, $url_trace) )
+	{
+		return TRUE;
+	}
+	else
+	{
+		return FALSE;
+	}
+}

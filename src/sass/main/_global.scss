@@ -5,11 +5,11 @@
     align-items: center;
     font-family: 'Roboto', sans-serif;
     font-size: 18px; 
-    color: rgb(41, 38, 105);
+    color: rgb(68, 81, 50);
     font-weight: 700;
     line-height: 1.556;
     text-align: center;
-    border: 1px solid  rgb(164, 164, 198);
+    border: 1px solid  rgb(230, 231, 232);
     width: 184px;
     height: 54px;
     border-radius: 30px;
@@ -92,7 +92,7 @@ p.text {
 
 .loader-1 .loader-outter {
     position: absolute;
-    border: 4px solid #ff0000;
+    border: 4px solid #af7034;
     border-left-color: transparent;
     border-bottom: 0;
     width: 100%;
@@ -104,7 +104,7 @@ p.text {
 
 .loader-1 .loader-inner {
     position: absolute;
-    border: 4px solid #ff0000;
+    border: 4px solid #af7034;
     border-radius: 50%;
     width: 40px;
     height: 40px;

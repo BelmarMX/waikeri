@@ -7,19 +7,21 @@ Route::add('/', function() use($blade){
 		-> make('welcome')
 		-> render();
 }, ['get', 'post']);
-
+Route::add('/compara', function() use($blade){
+	return $blade -> view()
+		-> make('compara')
+		-> render();
+});
 Route::add('/nosotros', function() use($blade){
 	return $blade -> view()
 		-> make('nosotros')
 		-> render();
 });
-
 Route::add('/guias', function() use($blade){
 	return $blade -> view()
 		-> make('guias')
 		-> render();
 });
-
 Route::add('/resena', function() use($blade){ // <- Individual provider review
 	return $blade -> view()
 		-> make('resena')
@@ -30,10 +32,14 @@ Route::add('/tarifas', function() use($blade){
 		-> make('tarifas')
 		-> render();
 });
-
 Route::add('/contacto', function() use($blade){
 	return $blade -> view()
-		-> make('welcome')
+		-> make('contacto')
+		-> render();
+});
+Route::add('/aviso-privacidad', function() use($blade){
+	return $blade -> view()
+		-> make('aviso')
 		-> render();
 });
 

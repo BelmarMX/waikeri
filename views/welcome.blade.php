@@ -1,5 +1,5 @@
 @extends('layouts.site')
-@section('title', 'Compara transferencias de dinero')
+@section('title', 'Transferencias de dinero internacionales')
 @section('description', '')
 @section('image', assets('img/'))
 
@@ -24,48 +24,7 @@
 					</div>
 				</div>
 				<div class="col-lg-5">
-					<div class="hero-form">
-						<p class="text">I'd like to exchange</p>
-						<div class="courrency-select">
-							<form action="#!" id="faq_form">
-								<div class="form-group">
-									<input type="text" name="number" placeholder="00.00" class="form-control">
-								</div>
-							</form>
-
-							<div class="language-select">
-								<select class="select-bar">
-									<option value="">INR</option>
-									<option value="">USD</option>
-									<option value="">USD</option>
-								</select>
-							</div>
-						</div>
-						<p class="text">Country From</p>
-						<div class="country">
-							<img src="{{ assets('img/usa-flag.png') }}" alt="">
-							<div class="language-select">
-								<select class="select-bar">
-									<option value="">USA(USD)</option>
-									<option value="">USE(USD)</option>
-									<option value="">USA(USD)</option>
-								</select>
-							</div>
-						</div>
-
-						<p class="text">Country To</p>
-						<div class="country">
-							<img src="{{ assets('img/india-flag.png') }}" alt="">
-							<div class="language-select">
-								<select class="select-bar">
-									<option value="">INR</option>
-									<option value="">USD</option>
-									<option value="">USD</option>
-								</select>
-							</div>
-						</div>
-						<a href="#" class="button button-1">Compare Providers</a>
-					</div>
+					@include('layouts.hero-form')
 				</div>
 			</div>
 		</div>
@@ -203,71 +162,7 @@
 	</div>
 </div>
 
-<!-- How-use Start -->
-<div class="how-use">
-	<div class="usesape">
-		<img src="{{ assets('img/use-bg.png') }}" class="usesape-img" alt="">
-	</div>
-	<div class="container">
-		<div class="row">
-			<div class="col-lg-6">
-				<div class="photo">
-					<img src="{{ assets('img/use-img.png') }}" class="use-img" alt="">
-				</div>
-				<div class="video-box">
-					<div class="video-img">
-						<img src="{{ assets('img/video-play-img.png') }}" alt="">
-
-						<a class="youtube-video mfp-iframe video-play-btn video-icon"
-							href="https://www.youtube.com/watch?v=4DCTTrGjGU4">
-							<i class="fas fa-play"></i>
-						</a>
-					</div>
-					<div class="video-text">
-						<p class="text">Watch Video Now</p>
-						<span><i class="far fa-clock"></i> 2:32 minutes</span>
-					</div>
-				</div>
-			</div>
-			<div class="col-lg-6">
-				<div class="content">
-					<h3 class="subtitle">Find the cheapest provider</h3>
-					<h2 class="title">It's Really Easy!</h2>
-					<p class="text">Simple process to get provider for your transfer money</p>
-				</div>
-				<div class="use-box">
-					<div class="install">
-						<div class="tumb">
-							<img src="{{ assets('img/use-icon-1.png') }}" alt="">
-						</div>
-						<div class="text-box">
-							<span>Step 1</span>
-							<h4>Enter your transfer amount</h4>
-						</div>
-					</div>
-					<div class="install">
-						<div class="tumb">
-							<img src="{{ assets('img/use-icon-2.png') }}" alt="">
-						</div>
-						<div class="text-box">
-							<span>Step 2</span>
-							<h4>Compare your options</h4>
-						</div>
-					</div>
-					<div class="install">
-						<div class="tumb">
-							<img src="{{ assets('img/use-icon-3.png') }}" alt="">
-						</div>
-						<div class="text-box">
-							<span>Step 3</span>
-							<h4>Choose the best option</h4>
-						</div>
-					</div>
-				</div>
-			</div>
-		</div>
-	</div>
-</div>
+@include('layouts.how-use')
 
 <!-- Partners Start -->
 <div class="partners">
@@ -338,95 +233,9 @@
 	</div>
 </div>
 
-<!-- Users Start -->
-<div class="users">
-	<div class="man-pic">
-		<img src="{{ assets('img/man-plant.png') }}" class="man-plant" alt="">
-	</div>
-	<div class="container">
-		<div class="row">
-			<div class="col-lg-8">
-				<div class="total-content">
-					<div class="content">
-						<h3 class="subtitle">+100 money transfer providers reviewed</h3>
-						<h2 class="title">Join other users
-							Sending money around
-							the world</h2>
-						<p class="text">Compare money transfer to these destinations and Start Saving On Money
-							Transfers Abroad!</p>
-					</div>
-					<div class="country owl-carousel owl-theme">
-						<a href="#" class="item">
-							<img src="{{ assets('img/flag-1.png') }}" alt="">
-						</a>
-						<a href="#" class="item">
-							<img src="{{ assets('img/flag-2.png') }}" alt="">
-						</a>
-						<a href="#" class="item">
-							<img src="{{ assets('img/flag-3.png') }}" alt="">
-						</a>
-						<a href="#" class="item">
-							<img src="{{ assets('img/flag-4.png') }}" alt="">
-						</a>
-						<a href="#" class="item">
-							<img src="{{ assets('img/flag-5.png') }}" alt="">
-						</a>
+@include('layouts.transfer-stats')
 
-					</div>
-				</div>
-			</div>
-			<div class="col-lg-4">
-				<div class="user-photo">
-					<img src="{{ assets('img/users.png') }}" alt="" class="right-pic">
-				</div>
-			</div>
-		</div>
-	</div>
-</div>
-
-<!-- Counter Start -->
-<div class="counter">
-	<div class="container">
-		<div class="row">
-			<div class="col-md-4 col-md-4 col-sm-6">
-				<div class="page-counter">
-					<div class="icon">
-						<img src="{{ assets('img/counter-bg.png') }}" alt="" class="bg">
-						<img src="{{ assets('img/counter-icon-1.png') }}" alt="" class="pic-icon">
-					</div>
-					<div class="counter-item">
-						<h2 class="title"><span class="count-num">33</span></h2>
-						<p class="text">Providers compared</p>
-					</div>
-				</div>
-			</div>
-			<div class="col-md-4 col-md-4 col-sm-6">
-				<div class="page-counter">
-					<div class="icon">
-						<img src="{{ assets('img/counter-bg.png') }}" alt="" class="bg">
-						<img src="{{ assets('img/counter-icon-2.png') }}" alt="" class="pic-icon">
-					</div>
-					<div class="counter-item">
-						<h2 class="title"><span class="count-num">70</span></h2>
-						<p class="text">Countries Supported</p>
-					</div>
-				</div>
-			</div>
-			<div class="col-md-4 col-md-4 col-sm-6">
-				<div class="page-counter">
-					<div class="icon">
-						<img src="{{ assets('img/counter-bg.png') }}" alt="" class="bg">
-						<img src="{{ assets('img/counter-icon-3.png') }}" alt="" class="pic-icon">
-					</div>
-					<div class="counter-item">
-						<h2 class="title"><span class="count-num">68</span>k</h2>
-						<p class="text">Quotes provided</p>
-					</div>
-				</div>
-			</div>
-		</div>
-	</div>
-</div>
+@include('layouts.counter')
 
 <!-- Update Start -->
 <div class="update">
@@ -470,144 +279,5 @@
 	</div>
 </div>
 
-<!-- Faq Start -->
-<div class="faq">
-	<div class="sape">
-		<img src="{{ assets('img/question-bg.png') }}" alt="" class="faq-bg">
-	</div>
-	<div class="container">
-		<div class="row">
-			<div class="col-12">
-				<div class="content">
-					<h3 class="subtitle">How Can We Help?</h3>
-					<h2 class="title"> Frequently Asked Questions</h2>
-					<p class="text">Everything you need to know about Comofer</p>
-				</div>
-			</div>
-			<div class="col-lg-9">
-				<div class="accordion" id="accordionExample">
-					<div class="accordion-item">
-						<h2 class="accordion-header" id="headingOne">
-							<button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
-								data-bs-target="#collapseOne" aria-expanded="false" aria-controls="collapseOne">
-								<img src="./assets/img/faq-icon.png') }}" alt="" class="icon">
-								How can I use Comofer to find the best ways to send money?
-							</button>
-						</h2>
-						<div id="collapseOne" class="accordion-collapse collapse" aria-labelledby="headingOne"
-							data-bs-parent="#accordionExample">
-							<div class="accordion-body">
-								Comofer is currently serviced in Belgium, Canada, Denmark, Finland, France, Germany,
-								Ireland, Italy, Netherlands, Norway, Spain,
-								Sweden, United Kingdom and the United States. We will update you when we expand the
-								list. CPP for AppTig console only allows players from other consoles to play
-								together in the same matchmaking pools.
-							</div>
-						</div>
-					</div>
-					<div class="accordion-item">
-						<h2 class="accordion-header" id="headingTwo">
-							<button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
-								data-bs-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
-								<img src="./assets/img/faq-icon.png') }}" alt="" class="icon">
-								How can I use Comofer to find the best ways to send money?
-							</button>
-						</h2>
-						<div id="collapseTwo" class="accordion-collapse collapse" aria-labelledby="headingTwo"
-							data-bs-parent="#accordionExample">
-							<div class="accordion-body">
-								Comofer is currently serviced in Belgium, Canada, Denmark, Finland, France, Germany,
-								Ireland, Italy, Netherlands, Norway, Spain,
-								Sweden, United Kingdom and the United States. We will update you when we expand the
-								list. CPP for AppTig console only allows players from other consoles to play
-								together in the same matchmaking pools.
-							</div>
-						</div>
-					</div>
-					<div class="accordion-item">
-						<h2 class="accordion-header" id="headingThree">
-							<button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
-								data-bs-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
-								<img src="./assets/img/faq-icon.png') }}" alt="" class="icon">
-								How can I use Comofer to find the best ways to send money?
-							</button>
-						</h2>
-						<div id="collapseThree" class="accordion-collapse collapse" aria-labelledby="headingThree"
-							data-bs-parent="#accordionExample">
-							<div class="accordion-body">
-								Comofer is currently serviced in Belgium, Canada, Denmark, Finland, France, Germany,
-								Ireland, Italy, Netherlands, Norway, Spain,
-								Sweden, United Kingdom and the United States. We will update you when we expand the
-								list. CPP for AppTig console only allows players from other consoles to play
-								together in the same matchmaking pools.
-							</div>
-						</div>
-					</div>
-					<div class="accordion-item">
-						<h2 class="accordion-header" id="headingFour">
-							<button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
-								data-bs-target="#collapseFour" aria-expanded="false" aria-controls="collapseFour">
-								<img src="./assets/img/faq-icon.png') }}" alt="" class="icon">
-								How can I use Comofer to find the best ways to send money?
-							</button>
-						</h2>
-						<div id="collapseFour" class="accordion-collapse collapse" aria-labelledby="headingFour"
-							data-bs-parent="#accordionExample">
-							<div class="accordion-body">
-								Comofer is currently serviced in Belgium, Canada, Denmark, Finland, France, Germany,
-								Ireland, Italy, Netherlands, Norway, Spain,
-								Sweden, United Kingdom and the United States. We will update you when we expand the
-								list. CPP for AppTig console only allows players from other consoles to play
-								together in the same matchmaking pools.
-							</div>
-						</div>
-					</div>
-					<div class="accordion-item">
-						<h2 class="accordion-header" id="headingFive">
-							<button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
-								data-bs-target="#collapseFive" aria-expanded="false" aria-controls="collapseFive">
-								<img src="./assets/img/faq-icon.png') }}" alt="" class="icon">
-								How can I use Comofer to find the best ways to send money?
-							</button>
-						</h2>
-						<div id="collapseFive" class="accordion-collapse collapse" aria-labelledby="headingFive"
-							data-bs-parent="#accordionExample">
-							<div class="accordion-body">
-								Comofer is currently serviced in Belgium, Canada, Denmark, Finland, France, Germany,
-								Ireland, Italy, Netherlands, Norway, Spain,
-								Sweden, United Kingdom and the United States. We will update you when we expand the
-								list. CPP for AppTig console only allows players from other consoles to play
-								together in the same matchmaking pools.
-							</div>
-						</div>
-					</div>
-					<div class="accordion-item">
-						<h2 class="accordion-header" id="headingSix">
-							<button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
-								data-bs-target="#collapseSix" aria-expanded="false" aria-controls="collapseSix">
-								<img src="./assets/img/faq-icon.png') }}" alt="" class="icon">
-								How can I use Comofer to find the best ways to send money?
-							</button>
-						</h2>
-						<div id="collapseSix" class="accordion-collapse collapse" aria-labelledby="headingSix"
-							data-bs-parent="#accordionExample">
-							<div class="accordion-body">
-								Comofer is currently serviced in Belgium, Canada, Denmark, Finland, France, Germany,
-								Ireland, Italy, Netherlands, Norway, Spain,
-								Sweden, United Kingdom and the United States. We will update you when we expand the
-								list. CPP for AppTig console only allows players from other consoles to play
-								together in the same matchmaking pools.
-							</div>
-						</div>
-					</div>
-				</div>
-			</div>
-			<div class="col-lg-3">
-				<div class="question">
-					<img src="{{ assets('img/question-man.png') }}" alt="" class="question-man">
-				</div>
-			</div>
-		</div>
-	</div>
-</div>
+@include('layouts.faq')
 @endsection
