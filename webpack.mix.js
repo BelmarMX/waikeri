@@ -1,7 +1,9 @@
 // webpack.mix.js
-let mix = require('laravel-mix');
+let mix = require('laravel-mix')
 
-mix.setPublicPath('public');
-
-mix.js('src/app.js', 'js')
-	.sass('src/sass/app.scss', 'css')
+mix.setPublicPath('public')
+mix
+	// JS SCRIPTS
+	.js('src/js/main.js', 'js')
+	// SASS STYLES
+	.sass('src/sass/style.scss', 'css')

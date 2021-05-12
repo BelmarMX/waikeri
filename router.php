@@ -10,40 +10,28 @@ Route::add('/', function() use($blade){
 
 Route::add('/nosotros', function() use($blade){
 	return $blade -> view()
-		-> make('welcome')
+		-> make('nosotros')
 		-> render();
 });
 
 Route::add('/guias', function() use($blade){
 	return $blade -> view()
-		-> make('welcome')
+		-> make('guias')
 		-> render();
 });
 
-Route::add('/paginas/proveedor', function() use($blade){
+Route::add('/resena', function() use($blade){ // <- Individual provider review
 	return $blade -> view()
-		-> make('welcome')
+		-> make('resena')
 		-> render();
 });
-Route::add('/paginas/rate', function() use($blade){
+Route::add('/tarifas', function() use($blade){
 	return $blade -> view()
-		-> make('welcome')
-		-> render();
-});
-
-Route::add('/preguntas-frecuentes', function() use($blade){
-	return $blade -> view()
-		-> make('welcome')
+		-> make('tarifas')
 		-> render();
 });
 
 Route::add('/contacto', function() use($blade){
-	return $blade -> view()
-		-> make('welcome')
-		-> render();
-});
-
-Route::add('/ejemplo/([0-9]*)/editar', function($id) use($blade){
 	return $blade -> view()
 		-> make('welcome')
 		-> render();
