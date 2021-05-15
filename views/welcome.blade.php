@@ -16,10 +16,11 @@
 			<div class="row align-items-center">
 				<div class="col-lg-7 ">
 					<div class="banner-content">
-						<h1 class="head">Compare Money Transfers</h1>
+						<h1 class="head">Haz transacciones seguras</h1>
 						<p class="text">
-							Save on fees, obtain the best exchange rates and find <br>
-							the cheapest transfer provider with our real-time comparison.
+							En <strong>Waikeri Transmoney</strong> te ayudamos a hacer tus transacciones
+							de manera segura. Si requieres hacer envíos de dinero al extranjero,
+							te ofrecemos la mayor seguridad y menor comisión del mercado.
 						</p>
 					</div>
 				</div>

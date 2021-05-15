@@ -1,6 +1,6 @@
 <?php
 /* require autoload files for PSR-7 */
-$root_dir = str_replace('public', '', __DIR__);
+$root_dir = str_replace('waikeri/public', 'waikeri/', __DIR__);
 require_once($root_dir.'vendor/autoload.php');
 require_once($root_dir.'app/functions/index.php');
 

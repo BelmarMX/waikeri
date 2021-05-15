@@ -9,11 +9,11 @@
 		<div class="row">
 			<div class="col-12">
 				<div class="subcribe-box" style="background: url('{{ assets('img/subscribe-bg.png') }}');">
-					<h3 class="subcribe">To get exclusive updates and benefits </h3>
+					<h3 class="subcribe">Para recibir actualizaciones y beneficios exclusivos</h3>
 					<div class="form-group">
 						<form action="#">
-							<input type="email" class="form-control " placeholder="Enter Your Email" name="email">
-							<button class="button-1">Subscribe</button>
+							<input type="email" class="form-control " placeholder="Ingresa tu dirección de email" name="email">
+							<button class="button-1">Suscribirme</button>
 						</form>
 					</div>
 				</div>

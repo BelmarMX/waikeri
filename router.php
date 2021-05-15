@@ -71,23 +71,6 @@ Route::methodNotAllowed(function($path, $method) use($blade){
 		-> render();
 });
 
-Route::add('/hidden/known-routes', function() {
-	$routes = Route::getAll();
-	echo '<ul>';
-	foreach($routes as $route)
-	{
-		if( is_array($route['method']) )
-		{
-			echo '<li>'.$route['expression'].' ('.implode(', ', $route['method']).')</li>';
-		}
-		else
-		{
-			echo '<li>'.$route['expression'].' ('.$route['method'].')</li>';
-		}
-	}
-	echo '</ul>';
-});
-
 // Run the router;
 $app_path = $_ENV['MIX_MODE'] == 'development'
 	? $_ENV['MIX_ROUTE_DEV']
