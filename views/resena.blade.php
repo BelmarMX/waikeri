@@ -5,7 +5,7 @@
 
 @section('content')
 <!-- Banners Start -->
-<section class="banner review" style="background-image: url('{{ assets('img/rate-bg.png') }}')">
+<section class="banner review" style="background-image: url('{{ assets('img/about-us-bg.png') }}')">
 	@include('layouts.navbar')
 	<!-- Banner Start -->
 	<div class="hero-area">

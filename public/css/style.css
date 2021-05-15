@@ -449,7 +449,7 @@ p.text {
   padding-left: 0;
 }
 .banner .mein-menu .navbar #navbarNavDropdown ul.navbar-nav li.nav-item a.nav-link:hover, .banner .mein-menu .navbar #navbarNavDropdown ul.navbar-nav li.nav-item a.nav-link.active {
-  color: #9b7f2e;
+  color: #2a311f;
 }
 .banner .mein-menu .navbar #navbarNavDropdown ul.navbar-nav li.nav-item .language-select {
   margin-left: 15px;
@@ -1240,7 +1240,7 @@ p.text {
   font-family: "Roboto", sans-serif;
   font-weight: 400;
   font-size: 18px;
-  color: #dcc687;
+  color: #f9f5ea;
   line-height: 1.556;
   min-height: 64px;
   background: transparent;
@@ -1253,21 +1253,21 @@ p.text {
   font-family: "Roboto", sans-serif;
   font-weight: 400;
   font-size: 18px;
-  color: #dcc687;
+  color: #f9f5ea;
   line-height: 1.556;
 }
 .footer .subcribe-box .form-group .form-control:-ms-input-placeholder {
   font-family: "Roboto", sans-serif;
   font-weight: 400;
   font-size: 18px;
-  color: #dcc687;
+  color: #f9f5ea;
   line-height: 1.556;
 }
 .footer .subcribe-box .form-group .form-control::placeholder {
   font-family: "Roboto", sans-serif;
   font-weight: 400;
   font-size: 18px;
-  color: #dcc687;
+  color: #f9f5ea;
   line-height: 1.556;
 }
 .footer .subcribe-box .form-group button.button-1 {
@@ -1592,7 +1592,7 @@ p.text {
 
 /* update compare  Start */
 .update.compare {
-  background: linear-gradient(to right, #e1cf9b 1%, #dcc687 100%);
+  background: linear-gradient(to right, #f9f5ea 1%, #dcc687 100%);
   padding: 50px 0 50px;
   margin: 120px 0 120px;
 }

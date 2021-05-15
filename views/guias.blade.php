@@ -4,7 +4,7 @@
 @section('image', assets('img/'))
 
 @section('content')
-<section class="banner guides" style="background-image: url('{{ assets('img/about-us-bg.jpg') }}')">
+<section class="banner guides" style="background-image: url('{{ assets('img/about-us-bg.png') }}')">
 	<div class="bubble">
 		<img src="{{ assets('img/bubble.png') }}" alt="" class="bubble-img">
 	</div>
