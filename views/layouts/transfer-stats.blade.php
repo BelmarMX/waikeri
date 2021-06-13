@@ -8,12 +8,11 @@
 			<div class="col-lg-8">
 				<div class="total-content">
 					<div class="content">
-						<h3 class="subtitle">+100 money transfer providers reviewed</h3>
-						<h2 class="title">Join other users
-							Sending money around
-							the world</h2>
-						<p class="text">Compare money transfer to these destinations and Start Saving On Money
-							Transfers Abroad!</p>
+						<h3 class="subtitle">+100 proveedores de transferencias calificados</h3>
+						<h2 class="title">Únase a otros usuarios enviando dinero por todo el mundo</h2>
+						<p class="text">
+							Compare transferencias de dinero a estos destinos y comience a ahorrar en transferencias de dinero al extranjero
+						</p>
 					</div>
 					<div class="country owl-carousel owl-theme">
 						<a href="#" class="item">

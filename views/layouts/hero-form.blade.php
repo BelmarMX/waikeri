@@ -1,5 +1,5 @@
 <div class="hero-form">
-	<p class="text">I'd like to exchange</p>
+	<p class="text">Me gustaría transferir</p>
 	<div class="courrency-select">
 		<form action="#!" id="faq_form">
 			<div class="form-group">
@@ -15,7 +15,7 @@
 			</select>
 		</div>
 	</div>
-	<p class="text">Country From</p>
+	<p class="text">País de origen</p>
 	<div class="country">
 		<img src="{{ assets('img/usa-flag.png') }}" alt="">
 		<div class="language-select">
@@ -27,7 +27,7 @@
 		</div>
 	</div>
 
-	<p class="text">Country To</p>
+	<p class="text">País destino</p>
 	<div class="country">
 		<img src="{{ assets('img/india-flag.png') }}" alt="">
 		<div class="language-select">
@@ -38,5 +38,5 @@
 			</select>
 		</div>
 	</div>
-	<a href="#" class="button button-1">Compare Providers</a>
+	<a href="#" class="button button-1">Comparar opciones</a>
 </div>

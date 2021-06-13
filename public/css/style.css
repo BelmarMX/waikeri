@@ -1492,13 +1492,13 @@ p.text {
 }
 .provaider .provaider-box .content .pament-box .pament {
   position: relative;
-  margin-right: 170px;
+  margin-right: 0px;
 }
 .provaider .provaider-box .content .pament-box .pament:after {
   position: absolute;
   top: 50%;
-  right: -50%;
-  transform: translateY(-50%);
+  right: -20%;
+  transform: translateY(-20%);
   content: "";
   width: 1px;
   height: 95%;
@@ -1553,7 +1553,7 @@ p.text {
   margin-left: auto;
   background: #fbfcff;
   text-align: center;
-  padding: 0px 60px 3px;
+  padding: 0px 26px 3px;
 }
 .provaider .provaider-box .total p.text {
   color: #445132;
@@ -2029,8 +2029,8 @@ p.text {
   flex-direction: row;
   align-items: center;
   padding: 30px 0px 30px;
-  position: absolute;
   bottom: -68%;
+  justify-content: center;
 }
 .banner.contact .hero-area .contact-info .info-box {
   text-align: center;
@@ -2061,12 +2061,9 @@ p.text {
 .banner.contact .hero-area .contact-info .info-box span {
   font-family: "Poppins", sans-serif;
   display: block;
-  color: #d0b360;
+  color: #ffffff;
   font-size: 18px;
-  font-weight: 28px;
-}
-.banner.contact .hero-area .contact-info .info-box.one {
-  margin-right: 120px;
+  font-weight: 300;
 }
 .banner.contact .hero-area .hero-form.contact {
   margin-bottom: -406px;
@@ -2088,7 +2085,7 @@ p.text {
   font-size: 18px;
   line-height: 1.556;
   font-weight: 400;
-  color: #e1cf9b;
+  color: #445132;
   border: 1px solid #bebebe;
   background-color: white;
   box-shadow: 0px 10px 20px 0px rgba(208, 179, 96, 0.1);

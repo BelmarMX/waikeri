@@ -13,7 +13,7 @@
 			<div class="row align-items-center">
 				<div class="col-lg-7 ">
 					<div class="banner-content">
-						<h2 class="title">Power Money Review</h2>
+						<h2 class="title">Reseña a Power Money</h2>
 						<p class="text">
 							Our detailed review of powermoney.com — a very well known money transfer company, which
 							specialises in sending money overseas online.
@@ -37,7 +37,7 @@
 		<div class="row">
 			<div class="col-lg-6">
 				<div class="overview-text">
-					<h2 class="title">Overview</h2>
+					<h2 class="title">Descripción General</h2>
 					<p class="text">
 						When you look online to make an international money transfer do you keep coming across
 						powermoney? It's often the cheapest money transfer company, but does this mean it's
@@ -46,7 +46,7 @@
 					</p>
 				</div>
 				<div class="powermoney">
-					<h4 class="what">Who is Powermoney <br> Money Transfer? </h4>
+					<h4 class="what">¿Quién es Powermoney <br> Money Transfer? </h4>
 					<p class="text">
 						powermoney Money Transfer is an online money transfer company that offers a cheaper and
 						faster way to send money internationally. As a trusted and seasoned name in foreign
@@ -75,7 +75,7 @@
 						<img src="{{ assets('img/man-right.png') }}" alt="" class="mamu">
 					</div>
 					<div class="list-box">
-						<h3 class="subtitle">Powermoney is good for</h3>
+						<h3 class="subtitle">Powermoney es bueno en</h3>
 						<ul class="power-list">
 							<li class="list-item">
 								<img src="{{ assets('img/check-icon.png') }}" class="check-icon" alt="">
@@ -96,7 +96,7 @@
 						</ul>
 					</div>
 					<div class="rating">
-						<p class="text">Powermoney rating: 4.8 / 5.0 </p>
+						<p class="text">Calificación de Powermoney: 4.8 / 5.0 </p>
 
 						<div class="icon">
 							<i class="fas fa-star"></i>
@@ -104,15 +104,15 @@
 							<i class="fas fa-star"></i>
 							<i class="fas fa-star"></i>
 							<i class="fas fa-star-half-alt"></i>
-							<span>(42,223 Reviews)</span>
+							<span>(42,223 Calificaciones)</span>
 						</div>
 
 					</div>
 				</div>
 				<div class="go-site">
-					<h3 class="subtitle">Learn More</h3>
-					<a href="#" class="button button-1">Go to site</a>
-					<span>Send money with powermoney</span>
+					<h3 class="subtitle">Aprenda más</h3>
+					<a href="#" class="button button-1">Visitar sitio</a>
+					<span>Enviar dinero con powermoney</span>
 				</div>
 			</div>
 		</div>
@@ -130,7 +130,7 @@
 			<div class="col-lg-8 offset-lg-2">
 				<div class="hcontent">
 					<h3 class="subtitle">Powermoney Money Transfer</h3>
-					<h2 class="title">Pros and cons</h2>
+					<h2 class="title">Pros y contras</h2>
 					<p class="text">
 						For most international transfer needs, we love PM, but they’re not quite perfect.
 						Let’s break it down and explain what PM is great at and where they have a few issues.
@@ -223,8 +223,8 @@
 		<div class="row">
 			<div class="col-lg-8 offset-lg-2">
 				<div class="hcontent">
-					<h3 class="subtitle">How to use PM money Transfer</h3>
-					<h2 class="title">It's Really Easy!</h2>
+					<h3 class="subtitle">Cómo usar PM money Transfer</h3>
+					<h2 class="title">¡Es bastante sencillo!</h2>
 					<p class="text">
 						There are three main steps to setting up an account with PM, which we have outlined below.
 						You can also watch our video tutorial for a complete guide.
@@ -240,7 +240,7 @@
 						<span>1</span>
 					</div>
 					<div class="details">
-						<h3 class="subtitle">Register</h3>
+						<h3 class="subtitle">Registrate</h3>
 						<p class="text">
 							Register with them online, it‘s easy and will take no more than 5 mins
 						</p>
@@ -254,7 +254,7 @@
 						<span>2</span>
 					</div>
 					<div class="details">
-						<h3 class="subtitle">Transfer</h3>
+						<h3 class="subtitle">Transfiere</h3>
 						<p class="text">
 							Confirm the details of your transfer the recipients details and how you’d like to pay
 						</p>
@@ -268,7 +268,7 @@
 						<span>3</span>
 					</div>
 					<div class="details">
-						<h3 class="subtitle">Pay</h3>
+						<h3 class="subtitle">Paga</h3>
 						<p class="text">
 							Pay for your transfer and you’re done!
 							PM accept payment via bank transfer.
@@ -278,7 +278,7 @@
 			</div>
 			<div class="col-12">
 				<div class="button-box">
-					<a href="#" class="button button-1">Go to site</a>
+					<a href="#" class="button button-1">Visitar sitio web</a>
 					<div class="video-box">
 						<div class="video-img">
 							<img src="{{ assets('img/video-play-img.png') }}" alt="">
@@ -295,84 +295,7 @@
 	</div>
 </div>
 
-<!-- testomonial Start -->
-<div class="testomonial man">
-	<div class="sape">
-		<img src="{{ assets('img/shap.png') }}" alt="" class="test-sape">
-	</div>
-	<div class="man-testo">
-		<img src="{{ assets('img/man-testo.png') }}" alt="" class="man-pic">
-	</div>
-	<div class="container">
-		<div class="row">
-			<div class="col-lg-6">
-				<div class="testo-box owl-carousel owl-theme">
-					<div class="item">
-						<div class="tumb">
-							<img src="{{ assets('img/testo-man.png') }}" alt="">
-
-						</div>
-						<div class="star">
-							<i class="fas fa-star"></i>
-							<i class="fas fa-star"></i>
-							<i class="fas fa-star"></i>
-							<i class="fas fa-star"></i>
-							<i class="fas fa-star"></i>
-						</div>
-						<p class="text">
-							Great to deal with and excellent market knowledge. Was able to source exactly
-							what I needed in a short time. Will use this service again soon.
-						</p>
-						<a href="#" class="button button-1">Donnie Neal </a>
-					</div>
-					<div class="item">
-						<div class="tumb">
-							<img src="{{ assets('img/testo-man.png') }}" alt="">
-
-						</div>
-						<div class="star">
-							<i class="fas fa-star"></i>
-							<i class="fas fa-star"></i>
-							<i class="fas fa-star"></i>
-							<i class="fas fa-star"></i>
-							<i class="fas fa-star"></i>
-						</div>
-						<p class="text">
-							Great to deal with and excellent market knowledge. Was able to source exactly
-							what I needed in a short time. Will use this service again soon.
-						</p>
-						<a href="#" class="button button-1">Donnie Neal </a>
-					</div>
-					<div class="item">
-						<div class="tumb">
-							<img src="{{ assets('img/testo-man.png') }}" alt="">
-
-						</div>
-						<div class="star">
-							<i class="fas fa-star"></i>
-							<i class="fas fa-star"></i>
-							<i class="fas fa-star"></i>
-							<i class="fas fa-star"></i>
-							<i class="fas fa-star"></i>
-						</div>
-						<p class="text">
-							Great to deal with and excellent market knowledge. Was able to source exactly
-							what I needed in a short time. Will use this service again soon.
-						</p>
-						<a href="#" class="button button-1">Donnie Neal </a>
-					</div>
-				</div>
-			</div>
-			<div class="offset-lg-1 col-lg-5 order-lg-last order-first">
-				<div class="hcontent">
-					<h3 class="subtitle">Testimonials</h3>
-					<h2 class="title">Trusted from our clients</h2>
-					<p class="text">Don’t take our word for it.See what our past clients say.</p>
-				</div>
-			</div>
-		</div>
-	</div>
-</div>
+@include('layouts.testimonial')
 
 <!-- feature-box one Start -->
 <div class="feature-box one">
@@ -381,14 +304,14 @@
 			<div class="col-lg-7">
 				<div class="fcontent-box">
 					<h2 class="title">
-						Is PM Money Transfer safe?
+						¿Es PM Money Transfer seguro?
 					</h2>
 					<p class="text">
 						A question we often get is PM Money Transfer actually legit? The answer is yes.
 						PM take their legal responsibilities very seriously. They are regulated in every country
 						they operate.
 					</p>
-					<a href="#" class="button button-1">Go to site</a>
+					<a href="#" class="button button-1">Visitar sitio web</a>
 				</div>
 			</div>
 			<div class="col-lg-5 order-lg-last order-first">
@@ -412,7 +335,7 @@
 			<div class="col-lg-7">
 				<div class="fcontent-box">
 					<h2 class="title">
-						How fast is PM?
+						¿Qué tan rápido es PM?
 					</h2>
 					<p class="text">
 						PM says that it sends out most transfers on the same day that they get your money. The
@@ -437,7 +360,7 @@
 						</li>
 
 					</ul>
-					<a href="#" class="button button-1">Go to site</a>
+					<a href="#" class="button button-1">Visitar sitio web</a>
 				</div>
 			</div>
 		</div>
@@ -450,7 +373,7 @@
 			<div class="col-lg-7">
 				<div class="fcontent-box">
 					<h2 class="title">
-						What are PM's fees?
+						¿Cuáles son los impuestos de PM?
 					</h2>
 					<p class="text">
 						The one thing you really need to know is how much PM charges to send money overseas. The
@@ -461,7 +384,7 @@
 						more than the base rate, interbank rate when you’re sending money to a popular destination.
 
 					</p>
-					<a href="#" class="button button-1">Go to site</a>
+					<a href="#" class="button button-1">Visitar sitio web</a>
 				</div>
 			</div>
 			<div class="col-lg-5 order-lg-last order-first">
@@ -484,7 +407,7 @@
 			<div class="col-lg-7">
 				<div class="fcontent-box">
 					<h2 class="title">
-						Does PM have <br> an App?
+						¿Tiene PW una app?
 					</h2>
 					<p class="text">
 						When you have an account with PM, you can make transfers through their website, or through
@@ -494,22 +417,23 @@
 						transfers. Having this on your phone will make it a lot easier to make transfers on the go
 						if you need to.
 					</p>
-					<a href="#" class="button button-1">Go to site</a>
+					<a href="#" class="button button-1">Visitar sitio web</a>
 				</div>
 			</div>
 		</div>
 	</div>
 </div>
+
 <!-- blog Start -->
 <div class="blog">
 	<div class="container">
 		<div class="row">
 			<div class="col-lg-8 offset-lg-2">
 				<div class="hcontent">
-					<h3 class="subtitle">Remittance & Money Transfer Guide</h3>
-					<h2 class="title">Read our guides on sending money abroad</h2>
+					<h3 class="subtitle">Guía de remesas y transferencias de dinero</h3>
+					<h2 class="title">Lea nuestras guías sobre cómo enviar dinero al exterior</h2>
 					<p class="text">
-						Tips and Advice For Sending Money Overseas
+						Consejos y sugerencias para enviar dinero al extranjero
 					</p>
 				</div>
 			</div>
@@ -522,7 +446,7 @@
 					</div>
 					<div class="text-box">
 						<a href="#" class="blog-title">
-							Find the Cheapest Way to Send Money Abroad
+							Encuentre la forma más económica de enviar dinero al extranjero
 						</a>
 						<span class="date">Jan 28, 2021</span>
 					</div>
@@ -535,7 +459,7 @@
 					</div>
 					<div class="text-box">
 						<a href="#" class="blog-title">
-							The User Experience of Sending Money Online
+							La experiencia del usuario al enviar dinero en línea
 						</a>
 						<span class="date">Jan 28, 2021</span>
 					</div>
@@ -548,7 +472,7 @@
 					</div>
 					<div class="text-box">
 						<a href="#" class="blog-title">
-							6 Reasons to Compares Money Transfer Services
+							6 razones para comparar los servicios de transferencia de dinero
 						</a>
 						<span class="date">Jan 28, 2021</span>
 					</div>

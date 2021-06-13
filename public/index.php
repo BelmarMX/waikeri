@@ -1,8 +1,8 @@
 <?php
 /* require autoload files for PSR-7 */
-$root_dir = str_replace('waikeri/public', 'waikeri/', __DIR__);
-require_once($root_dir.'vendor/autoload.php');
-require_once($root_dir.'app/functions/index.php');
+$root_dir = __DIR__.'/../';
+require __DIR__.'/../vendor/autoload.php';
+require __DIR__.'/../app/functions/index.php';
 
 /* dotenv */
 use Dotenv\Dotenv;

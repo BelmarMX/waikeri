@@ -46,7 +46,7 @@
 			</div>
 			<div class="col-md-6">
 				<div class="footer-bottom">
-					<p class="text">Copyright &copy; <a href="#">{{ $_ENV['MIX_COMPANY'] }}</a> | <a href="#">2021</a> </p>
+					<p class="text">Derechos reservados &copy; <a href="#">{{ $_ENV['MIX_COMPANY'] }}</a> | <a href="#">2021</a> </p>
 				</div>
 			</div>
 			<div class="col-md-6">

@@ -13,7 +13,7 @@
 			<div class="row align-items-center">
 				<div class="col-lg-7 m-lg-auto">
 					<div class="banner-content">
-						<h2 class="title">Compare Money Transfers</h2>
+						<h2 class="title">Compara transferencias de dinero</h2>
 					</div>
 				</div>
 			</div>
@@ -30,12 +30,14 @@
 			<div class="col-12">
 				<div class="secure">
 					<img src="{{ assets('img/secure-icon.png') }}" alt="" class="sucure-icon">
-					<p class="text">We only compare secure providers which we have researched, tested and approved.
-						<a href="#">Learn more</a> </p>
+					<p class="text">
+						Unicamente comparamos provedores autorizados a quienes hemos revisado y probado.
+						<a href="#">Descubre más</a>
+					</p>
 				</div>
 				<div class="provaider-match">
-					<p class="text one">5 Providers Matched </p>
-					<p class="text two">Rates updated less than 11 mins ago</p>
+					<p class="text one">5 Coincidencias</p>
+					<p class="text two">Calificaciones actualizadas hace 11 minutos</p>
 				</div>
 				<div class="provaider-box">
 					<div class="ribbon">
@@ -51,36 +53,36 @@
 							<i class="fas fa-star"></i>
 							<i class="fas fa-star"></i>
 							<i class="fas fa-star-half-alt"></i>
-							(42,223 Reviews)
+							(42,223 Calificaciones)
 						</p>
-						<a href="review.html" class="link">Learn more >></a>
+						<a href="#" class="link">Ver más</a>
 					</div>
 					<div class="content">
 						<div class="pament-box">
 							<div class="pament">
-								<p class="text">Payment Options</p>
+								<p class="text">Opciones de pago</p>
 								<div class="cradit-card">
 									<p class="text"><img src="{{ assets('img/card.png') }}" alt=""> <span>Debit /Credit Card</span></p>
 									<p class="text"><img src="{{ assets('img/bank.png') }}" alt=""> <span>Debit /Credit Card</span></p>
 								</div>
 							</div> 
 							<div class="exchange">
-								<p class="text">Exchange rate: <span>0.7145</span></p>
-								<p class="text">Transfer fees: <span>$0.00 USD</span></p>
-								<p class="text">Transfer time: <span>$0.00 USD</span></p>
+								<p class="text">Tasa de cambio: <span>0.7145</span></p>
+								<p class="text">Impuestos por trasferencia: <span>$0.00 USD</span></p>
+								<p class="text">Tiempo de transferencia: <span>$0.00 USD</span></p>
 							</div>
 						</div>
 					
 						<div class="free-transfer">
 							<img src="{{ assets('img/free-trns.png') }}" alt="" class="free-icon">
-							<p class="text">New customers get first 3 transfers fee FREE</p>
+							<p class="text">Los clientes nuevos obteniene las 3 primeras transferencias sin costo.</p>
 						</div>
 					</div>
 					<div class="total">
 						<p class="text">Total:</p>
-						<h4 class="amount">£1,786.23 GBP</h4>
-						<p class="text">Included fees</p>
-						<a href="#" class="button button-1">Go to site</a>
+						<h4 class="amount">$1,786.23 MXN</h4>
+						<p class="text">Impuestos incluidos</p>
+						<a href="#" class="button button-1">Visitar sitio</a>
 					</div>
 				</div>
 				<div class="provaider-box"> 
@@ -94,36 +96,36 @@
 							<i class="fas fa-star"></i>
 							<i class="fas fa-star"></i>
 							<i class="fas fa-star-half-alt"></i>
-							(42,223 Reviews)
+							(42,223 Calificaciones)
 						</p>
-						<a href="review.html" class="link">Learn more >></a>
+						<a href="#" class="link">Ver más</a>
 					</div>
 					<div class="content">
 						<div class="pament-box">
 							<div class="pament">
-								<p class="text">Payment Options</p>
+								<p class="text">Opciones de pago</p>
 								<div class="cradit-card">
 									<p class="text"><img src="{{ assets('img/card.png') }}" alt=""> <span>Debit /Credit Card</span></p>
 									<p class="text"><img src="{{ assets('img/bank.png') }}" alt=""> <span>Debit /Credit Card</span></p>
 								</div>
 							</div> 
 							<div class="exchange">
-								<p class="text">Exchange rate: <span>0.7145</span></p>
-								<p class="text">Transfer fees: <span>$0.00 USD</span></p>
-								<p class="text">Transfer time: <span>$0.00 USD</span></p>
+								<p class="text">Tasa de cambio: <span>0.7145</span></p>
+								<p class="text">Impuestos por trasferencia: <span>$0.00 USD</span></p>
+								<p class="text">Tiempo de transferencia: <span>$0.00 USD</span></p>
 							</div>
 						</div>
 					
 						<div class="free-transfer">
 							<img src="{{ assets('img/free-trns.png') }}" alt="" class="free-icon">
-							<p class="text">New customers get first 3 transfers fee FREE</p>
+							<p class="text">Los clientes nuevos obteniene las 3 primeras transferencias sin costo.</p>
 						</div>
 					</div>
 					<div class="total">
 						<p class="text">Total:</p>
-						<h4 class="amount">£1,786.23 GBP</h4>
-						<p class="text">Included fees</p>
-						<a href="#" class="button button-1">Go to site</a>
+						<h4 class="amount">$1,786.23 MXN</h4>
+						<p class="text">Impuestos incluidos</p>
+						<a href="#" class="button button-1">Visitar sitio</a>
 					</div>
 				</div>
 				<div class="provaider-box"> 
@@ -137,36 +139,36 @@
 							<i class="fas fa-star"></i>
 							<i class="fas fa-star"></i>
 							<i class="fas fa-star-half-alt"></i>
-							(42,223 Reviews)
+							(42,223 Calificaciones)
 						</p>
-						<a href="review.html" class="link">Learn more >></a>
+						<a href="#" class="link">Ver más</a>
 					</div>
 					<div class="content">
 						<div class="pament-box">
 							<div class="pament">
-								<p class="text">Payment Options</p>
+								<p class="text">Opciones de pago</p>
 								<div class="cradit-card">
 									<p class="text"><img src="{{ assets('img/card.png') }}" alt=""> <span>Debit /Credit Card</span></p>
 									<p class="text"><img src="{{ assets('img/bank.png') }}" alt=""> <span>Debit /Credit Card</span></p>
 								</div>
 							</div> 
 							<div class="exchange">
-								<p class="text">Exchange rate: <span>0.7145</span></p>
-								<p class="text">Transfer fees: <span>$0.00 USD</span></p>
-								<p class="text">Transfer time: <span>$0.00 USD</span></p>
+								<p class="text">Tasa de cambio: <span>0.7145</span></p>
+								<p class="text">Impuestos por trasferencia: <span>$0.00 USD</span></p>
+								<p class="text">Tiempo de transferencia: <span>$0.00 USD</span></p>
 							</div>
 						</div>
 					
 						<div class="free-transfer">
 							<img src="{{ assets('img/free-trns.png') }}" alt="" class="free-icon">
-							<p class="text">New customers get first 3 transfers fee FREE</p>
+							<p class="text">Los clientes nuevos obteniene las 3 primeras transferencias sin costo.</p>
 						</div>
 					</div>
 					<div class="total">
 						<p class="text">Total:</p>
-						<h4 class="amount">£1,786.23 GBP</h4>
-						<p class="text">Included fees</p>
-						<a href="#" class="button button-1">Go to site</a>
+						<h4 class="amount">$1,786.23 MXN</h4>
+						<p class="text">Impuestos incluidos</p>
+						<a href="#" class="button button-1">Visitar sitio</a>
 					</div>
 				</div>
 				<div class="provaider-box"> 
@@ -180,36 +182,36 @@
 							<i class="fas fa-star"></i>
 							<i class="fas fa-star"></i>
 							<i class="fas fa-star-half-alt"></i>
-							(42,223 Reviews)
+							(42,223 Calificaciones)
 						</p>
-						<a href="review.html" class="link">Learn more >></a>
+						<a href="#" class="link">Ver más</a>
 					</div>
 					<div class="content">
 						<div class="pament-box">
 							<div class="pament">
-								<p class="text">Payment Options</p>
+								<p class="text">Opciones de pago</p>
 								<div class="cradit-card">
 									<p class="text"><img src="{{ assets('img/card.png') }}" alt=""> <span>Debit /Credit Card</span></p>
 									<p class="text"><img src="{{ assets('img/bank.png') }}" alt=""> <span>Debit /Credit Card</span></p>
 								</div>
 							</div> 
 							<div class="exchange">
-								<p class="text">Exchange rate: <span>0.7145</span></p>
-								<p class="text">Transfer fees: <span>$0.00 USD</span></p>
-								<p class="text">Transfer time: <span>$0.00 USD</span></p>
+								<p class="text">Tasa de cambio: <span>0.7145</span></p>
+								<p class="text">Impuestos por trasferencia: <span>$0.00 USD</span></p>
+								<p class="text">Tiempo de transferencia: <span>$0.00 USD</span></p>
 							</div>
 						</div>
 					
 						<div class="free-transfer">
 							<img src="{{ assets('img/free-trns.png') }}" alt="" class="free-icon">
-							<p class="text">New customers get first 3 transfers fee FREE</p>
+							<p class="text">Los clientes nuevos obteniene las 3 primeras transferencias sin costo.</p>
 						</div>
 					</div>
 					<div class="total">
 						<p class="text">Total:</p>
-						<h4 class="amount">£1,786.23 GBP</h4>
-						<p class="text">Included fees</p>
-						<a href="#" class="button button-1">Go to site</a>
+						<h4 class="amount">$1,786.23 MXN</h4>
+						<p class="text">Impuestos incluidos</p>
+						<a href="#" class="button button-1">Visitar sitio</a>
 					</div>
 				</div>
 				<div class="provaider-box"> 
@@ -223,36 +225,36 @@
 							<i class="fas fa-star"></i>
 							<i class="fas fa-star"></i>
 							<i class="fas fa-star-half-alt"></i>
-							(42,223 Reviews)
+							(42,223 Calificaciones)
 						</p>
-						<a href="review.html" class="link">Learn more >></a>
+						<a href="#" class="link">Ver más</a>
 					</div>
 					<div class="content">
 						<div class="pament-box">
 							<div class="pament">
-								<p class="text">Payment Options</p>
+								<p class="text">Opciones de pago</p>
 								<div class="cradit-card">
 									<p class="text"><img src="{{ assets('img/card.png') }}" alt=""> <span>Debit /Credit Card</span></p>
 									<p class="text"><img src="{{ assets('img/bank.png') }}" alt=""> <span>Debit /Credit Card</span></p>
 								</div>
 							</div> 
 							<div class="exchange">
-								<p class="text">Exchange rate: <span>0.7145</span></p>
-								<p class="text">Transfer fees: <span>$0.00 USD</span></p>
-								<p class="text">Transfer time: <span>$0.00 USD</span></p>
+								<p class="text">Tasa de cambio: <span>0.7145</span></p>
+								<p class="text">Impuestos por trasferencia: <span>$0.00 USD</span></p>
+								<p class="text">Tiempo de transferencia: <span>$0.00 USD</span></p>
 							</div>
 						</div>
 					
 						<div class="free-transfer">
 							<img src="{{ assets('img/free-trns.png') }}" alt="" class="free-icon">
-							<p class="text">New customers get first 3 transfers fee FREE</p>
+							<p class="text">Los clientes nuevos obteniene las 3 primeras transferencias sin costo.</p>
 						</div>
 					</div>
 					<div class="total">
 						<p class="text">Total:</p>
-						<h4 class="amount">£1,786.23 GBP</h4>
-						<p class="text">Included fees</p>
-						<a href="#" class="button button-1">Go to site</a>
+						<h4 class="amount">$1,786.23 MXN</h4>
+						<p class="text">Impuestos incluidos</p>
+						<a href="#" class="button button-1">Visitar sitio</a>
 					</div>
 				</div>
 				<div class="provaider-box"> 
@@ -266,36 +268,36 @@
 							<i class="fas fa-star"></i>
 							<i class="fas fa-star"></i>
 							<i class="fas fa-star-half-alt"></i>
-							(42,223 Reviews)
+							(42,223 Calificaciones)
 						</p>
-						<a href="review.html" class="link">Learn more >></a>
+						<a href="#" class="link">Ver más</a>
 					</div>
 					<div class="content">
 						<div class="pament-box">
 							<div class="pament">
-								<p class="text">Payment Options</p>
+								<p class="text">Opciones de pago</p>
 								<div class="cradit-card">
 									<p class="text"><img src="{{ assets('img/card.png') }}" alt=""> <span>Debit /Credit Card</span></p>
 									<p class="text"><img src="{{ assets('img/bank.png') }}" alt=""> <span>Debit /Credit Card</span></p>
 								</div>
 							</div> 
 							<div class="exchange">
-								<p class="text">Exchange rate: <span>0.7145</span></p>
-								<p class="text">Transfer fees: <span>$0.00 USD</span></p>
-								<p class="text">Transfer time: <span>$0.00 USD</span></p>
+								<p class="text">Tasa de cambio: <span>0.7145</span></p>
+								<p class="text">Impuestos por trasferencia: <span>$0.00 USD</span></p>
+								<p class="text">Tiempo de transferencia: <span>$0.00 USD</span></p>
 							</div>
 						</div>
 					
 						<div class="free-transfer">
 							<img src="{{ assets('img/free-trns.png') }}" alt="" class="free-icon">
-							<p class="text">New customers get first 3 transfers fee FREE</p>
+							<p class="text">Los clientes nuevos obteniene las 3 primeras transferencias sin costo.</p>
 						</div>
 					</div>
 					<div class="total">
 						<p class="text">Total:</p>
-						<h4 class="amount">£1,786.23 GBP</h4>
-						<p class="text">Included fees</p>
-						<a href="#" class="button button-1">Go to site</a>
+						<h4 class="amount">$1,786.23 MXN</h4>
+						<p class="text">Impuestos incluidos</p>
+						<a href="#" class="button button-1">Visitar sitio</a>
 					</div>
 				</div>
 			</div>
@@ -314,18 +316,7 @@
 				</div>
 			</div>
 			<div class="col-lg-7">
-				<div class="alert-box">
-					<div class="icon">
-						<img src="{{ assets('img/bal-bg.png') }}" alt="">
-						<img src="{{ assets('img/bell.png') }}" alt="" class="bell">
-					</div>
-					<div class="text-box">
-						<h3 class="subtitle">Want to find the best time
-							to transfer?</h3>
-						<p class="text">Simply use our free email alerts to track the rate daily.</p>
-						<a href="#" class="button button-1">Get Alerts Now </a>
-					</div>
-				</div>
+				@include('layouts.alert-box')
 			</div>
 		</div>
 	</div>

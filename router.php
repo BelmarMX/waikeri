@@ -37,6 +37,13 @@ Route::add('/contacto', function() use($blade){
 		-> make('contacto')
 		-> render();
 });
+Route::add('/contacto', function() use($blade){
+	require_once('app/mail/contact.php');
+	return $blade -> view()
+		-> make('contacto')
+		-> with('mail_response', $mail_response)
+		-> render();
+}, ['post']);
 Route::add('/aviso-privacidad', function() use($blade){
 	return $blade -> view()
 		-> make('aviso')

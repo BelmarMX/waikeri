@@ -13,10 +13,9 @@
 			<div class="row align-items-center">
 				<div class="col-lg-7 ">
 					<div class="banner-content">
-						<h2 class="title">About Comofer</h2>
+						<h2 class="title">Acerca de nosostros</h2>
 						<p class="text">
-							Currency exchanges are everywhere.money transfer providers too. The challenge is finding
-							one that you can trust, who offers the best price and is near to where you live or work.
+							La manera más fácil y segura de hacer transferencias con clientes y provedores
 						</p>
 					</div>
 				</div>
@@ -42,15 +41,22 @@
 			</div>
 			<div class="col-lg-7">
 				<div class="content">
-					<h3 class="subtitle">Comofer's mission</h3>
-					<h2 class="title">To help you save on transfer fees and exchange rates</h2>
+					<h3 class="subtitle">Departamento de cumplimiento</h3>
+					<h2 class="title">Waikeri TM</h2>
 					<p class="text">
-						We believe that transferring money between countries should be a painless experience for
-						everyone involved. For the sender, the receiver and even for your wallet. <br> <br>
-						With so many different factors and companies to consider, our aim is to remove the
-						difficulty in
-						finding and using money transfer providers, guiding you through every single step and making
-						sure you’re making the best decision for your specific needs.
+						Para nosotros el cumplimiento normativo es muy importante, y nos comprometemos a seguir pautas específicas para que pueda enviar dinero sin preocupaciones.
+					</p>
+				</div>
+				<div class="content mt-3">
+					<h3 class="subtitle">Obrar con la debida cautela</h3>
+					<p class="text">
+						Ejercemos la debida cautela con todos los agentes y corresponsales antes de contratar con ellos. Resultado: Todas las transferencias de dinero procesadas por nosotros pasan por estrictos controles para evitar el lavado de dinero y financiamiento del terrorismo.
+					</p>
+				</div>
+				<div class="content mt-3">
+					<h3 class="subtitle">Leyes y reglamentaciones</h3>
+					<p class="text">
+						Las cumplimos, todas. Las políticas y procedimientos de cumplimiento que exigen las leyes de los Estados Unidos Mexicanos (CNBV) y las de la jurisdicción en la que operamos. Waikeri TM cumple además con las emitidas por Oficina de Control de Activos Extranjeros (OFAC) y se adhiere a todas las sanciones de la Unión Europea y Naciones Unidas.
 					</p>
 				</div>
 			</div>
@@ -62,86 +68,6 @@
 
 @include('layouts.counter')
 
-<!-- testomonial Start -->
-<div class="testomonial">
-	<div class="phone">
-		<img src="{{ assets('img/tes-right-p.png') }}" alt="" class="right-phone">
-	</div>
-	<div class="sape">
-		<img src="{{ assets('img/testomonial-shape.png') }}" alt="" class="test-sape">
-	</div>
-	<div class="test-girl">
-		<img src="{{ assets('img/test-girl.png') }}" alt="" class="girl-pic">
-	</div>
-	<div class="container">
-		<div class="row">
-			<div class="col-lg-7">
-				<div class="testo-box owl-carousel owl-theme">
-					<div class="item">
-						<div class="tumb">
-							<img src="{{ assets('img/testo-man.png') }}" alt="">
-
-						</div>
-						<div class="star">
-							<i class="fas fa-star"></i>
-							<i class="fas fa-star"></i>
-							<i class="fas fa-star"></i>
-							<i class="fas fa-star"></i>
-							<i class="fas fa-star"></i>
-						</div>
-						<p class="text">
-							Great to deal with and excellent market knowledge. Was able to source exactly
-							what I needed in a short time. Will use this service again soon.
-						</p>
-						<a href="#" class="button button-1">Donnie Neal </a>
-					</div>
-					<div class="item">
-						<div class="tumb">
-							<img src="{{ assets('img/testo-man.png') }}" alt="">
-
-						</div>
-						<div class="star">
-							<i class="fas fa-star"></i>
-							<i class="fas fa-star"></i>
-							<i class="fas fa-star"></i>
-							<i class="fas fa-star"></i>
-							<i class="fas fa-star"></i>
-						</div>
-						<p class="text">
-							Great to deal with and excellent market knowledge. Was able to source exactly
-							what I needed in a short time. Will use this service again soon.
-						</p>
-						<a href="#" class="button button-1">Donnie Neal </a>
-					</div>
-					<div class="item">
-						<div class="tumb">
-							<img src="{{ assets('img/testo-man.png') }}" alt="">
-
-						</div>
-						<div class="star">
-							<i class="fas fa-star"></i>
-							<i class="fas fa-star"></i>
-							<i class="fas fa-star"></i>
-							<i class="fas fa-star"></i>
-							<i class="fas fa-star"></i>
-						</div>
-						<p class="text">
-							Great to deal with and excellent market knowledge. Was able to source exactly
-							what I needed in a short time. Will use this service again soon.
-						</p>
-						<a href="#" class="button button-1">Donnie Neal </a>
-					</div>
-				</div>
-			</div>
-			<div class="col-lg-5 order-lg-last order-first">
-				<div class="content">
-					<h3 class="subtitle">Testimonials</h3>
-					<h2 class="title">Trusted from our clients</h2>
-					<p class="text">Don’t take our word for it.See what our past clients say.</p>
-				</div>
-			</div>
-		</div>
-	</div>
-</div>
+@include('layouts.testimonial')
 
 @endsection

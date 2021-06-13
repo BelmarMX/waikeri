@@ -42,12 +42,12 @@
 		<div class="row">
 			<div class="col-lg-10 m-auto">
 				<div class="upper-content text-center">
-					<h3 class="subtitle">We Review and Compare Only the Best</h3>
-					<h2 class="title">Why Compare Money Transfer
-						Providers With us?</h2>
+					<h3 class="subtitle">Comparamos y calificamos sólo a los mejores</h3>
+					<h2 class="title">
+						¿Por qué comparar proveedores con nosotros?
+					</h2>
 					<p class="text">
-						We use real-time data feeds to compare the leading money transfer providers. We do the hard
-						work for you, meaning you can transfer money online with confidence.
+						Utilizamos fuentes de datos en tiempo real para comparar los principales proveedores de transferencias de dinero. Hacemos lo difícil funcionan para usted, lo que significa que puede transferir dinero en línea con confianza.
 					</p>
 				</div>
 			</div>
@@ -65,9 +65,9 @@
 							<img src="{{ assets('img/about-icon-1.png') }}" alt="">
 						</div>
 						<div class="text-box">
-							<h3 class="subtitle">Compare and Save</h3>
+							<h3 class="subtitle">Compara y ahorra</h3>
 							<p class="text">
-								On average you can save over 90% when comparing money transfer providers.
+								En promedio puedes ahorrar hasta un 90% cuando comparas proveedores de tranferencias.
 							</p>
 						</div>
 					</div>
@@ -76,9 +76,9 @@
 							<img src="{{ assets('img/about-icon-2.png') }}" alt="">
 						</div>
 						<div class="text-box">
-							<h3 class="subtitle">Find a Trusted Provider</h3>
-							<p class="text">With so many providers, pick one that is
-								trusted by both users and experts.
+							<h3 class="subtitle">Encuentra un proveedor de confianza</h3>
+							<p class="text">
+								Con tantos proveedores, elija uno que sea confiable para usuarios como para los expertos.
 							</p>
 						</div>
 					</div>
@@ -87,9 +87,9 @@
 							<img src="{{ assets('img/about-icon-3.png') }}" alt="">
 						</div>
 						<div class="text-box">
-							<h3 class="subtitle">Get Your Money Quickly</h3>
+							<h3 class="subtitle">Obtenga su dinero rapidament</h3>
 							<p class="text">
-								Some transfers take days, others minutes, compare to find out your options.
+								Algunas transferncias tardan días, otras mínutos. Compara y encuentra tus opciones.
 							</p>
 						</div>
 					</div>
@@ -105,10 +105,12 @@
 		<div class="row">
 			<div class="col-lg-10 m-auto">
 				<div class="upper-content text-center">
-					<h3 class="subtitle">How We Compare</h3>
-					<h2 class="title">Find the best way to transfer money abroad</h2>
-					<p class="text">We find and compare the best money transfer providers for your needs, getting
-						you the best exchange rate possible, while exposing the hidden fees.</p>
+					<h3 class="subtitle">¿Cómo comparamos?</h3>
+					<h2 class="title">Encuentra la mejor manera de transferir dinero al extranjero</h2>
+					<p class="text">
+						Buscamos y comparamos los mejores proveedores de transferncias para tus necesidad, oteniendo
+						las mejores tasas de cambio posibles, mientras mostramos los impuestos ocultos.
+					</p>
 				</div>
 			</div>
 		</div>
@@ -119,9 +121,9 @@
 						<img src="{{ assets('img/feature-icon-1.png') }}" alt="">
 					</div>
 					<div class="text-box">
-						<h3 class="subtitle">Cost</h3>
+						<h3 class="subtitle">Costo</h3>
 						<p class="text">
-							The cost of a currency transfer is a hugely important factor
+							El costo de la transferencia de divisas es un factor muy importante
 						</p>
 					</div>
 				</div>
@@ -132,8 +134,10 @@
 						<img src="{{ assets('img/feature-icon-2.png') }}" alt="">
 					</div>
 					<div class="text-box">
-						<h3 class="subtitle">Speed</h3>
-						<p class="text">Deliver money transfers instantly or within a few days.</p>
+						<h3 class="subtitle">Velocidad</h3>
+						<p class="text">
+							Entregue transferencias de dinero al instante o en pocos días.
+						</p>
 					</div>
 				</div>
 			</div>
@@ -143,8 +147,10 @@
 						<img src="{{ assets('img/feature-icon-3.png') }}" alt="">
 					</div>
 					<div class="text-box">
-						<h3 class="subtitle">Payment Options</h3>
-						<p class="text">A wide range of payment options when comparing listed providers.</p>
+						<h3 class="subtitle">Opciones de pago</h3>
+						<p class="text">
+							Un amplio rango de opciones de pago cuando comparas proveedores.
+						</p>
 					</div>
 				</div>
 			</div>
@@ -154,8 +160,10 @@
 						<img src="{{ assets('img/feature-icon-4.png') }}" alt="">
 					</div>
 					<div class="text-box">
-						<h3 class="subtitle">Currencies Available</h3>
-						<p class="text">We prefer providers that offer more currencies for you to transfer. </p>
+						<h3 class="subtitle">Divisas disponibles</h3>
+						<p class="text">
+							Preferimos provedores que pueden ofrecer más divisas para sus transferencias.
+						</p>
 					</div>
 				</div>
 			</div>
@@ -171,10 +179,12 @@
 		<div class="row">
 			<div class="col-lg-8 m-auto">
 				<div class="upper-content text-center">
-					<h3 class="subtitle">Get Quotes From Multiple Providers</h3>
-					<h2 class="title">Some of our partners</h2>
-					<p class="text">We find and compare the best money transfer providers for your needs, getting
-						you the best exchange rate possible, while exposing the hidden fees.</p>
+					<h3 class="subtitle">Obtenga cotizaciones de multiples proveedores</h3>
+					<h2 class="title">Algunos de nuestros socios</h2>
+					<p class="text">
+						Buscamos y comparamos los mejores proveedores de transferncias para tus necesidad, oteniendo
+						las mejores tasas de cambio posibles, mientras mostramos los impuestos ocultos.
+					</p>
 				</div>
 			</div>
 		</div>
@@ -228,7 +238,7 @@
 				</a>
 			</div>
 			<div class="col-12">
-				<a href="#" class="button button-1">View More</a>
+				<a href="#" class="button button-1">Ver más</a>
 			</div>
 		</div>
 	</div>
@@ -252,7 +262,7 @@
 			</div>
 			<div class="col-lg-7 order-lg-last order-first">
 				<div class="content">
-					<h2 class="title">Stay updated anywhere, anytime!</h2>
+					<h2 class="title">Mantente actualizado en cualquier lugar a cualquier hora</h2>
 					<div class="get-link">
 						<a href="#" class="link"><img src="{{ assets('img/apple-icon.png') }}" alt=""></a>
 						<a href="#" class="link"><img src="{{ assets('img/google-play.png') }}" alt=""></a>
@@ -262,18 +272,7 @@
 		</div>
 		<div class="row">
 			<div class="col-lg-7 offset-lg-5">
-				<div class="alert-box">
-					<div class="icon">
-						<img src="{{ assets('img/bal-bg.png') }}" alt="">
-						<img src="{{ assets('img/bell.png') }}" alt="" class="bell">
-					</div>
-					<div class="text-box">
-						<h3 class="subtitle">Want to find the best time
-							to transfer?</h3>
-						<p class="text">Simply use our free email alerts to track the rate daily.</p>
-						<a href="#" class="button button-1">Get Alerts Now </a>
-					</div>
-				</div>
+				@include('layouts.alert-box')
 			</div>
 
 		</div>

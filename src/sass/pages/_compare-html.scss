@@ -183,9 +183,9 @@
                     &:after {
                         position: absolute;
                         top: 50%;
-                        right: -50%;
-                        -webkit-transform: translateY(-50%);
-                                transform: translateY(-50%);
+                        right: -20%;
+                        -webkit-transform: translateY(-20%);
+                                transform: translateY(-20%);
                         content: "";
                         width: 1px;
                         height: 95%;
@@ -208,7 +208,7 @@
                         }
                     }
 
-                    margin-right: 170px;
+                    margin-right: 0px;
                 }
 
                 .exchange {
@@ -271,7 +271,7 @@
             margin-left: auto;
             background: #fbfcff;
             text-align: center;
-            padding: 0px 60px 3px;
+            padding: 0px 26px 3px;
 
             p.text {
                 color: #445132;

@@ -4,24 +4,31 @@
 		<meta charset="UTF-8">
 		<meta name="viewport" content="width=device-width, initial-scale=1.0">
 		<meta http-equiv="X-UA-Compatible" content="ie=edge">
-
-		<title>@yield('title') - Waikeri Transmoney</title>
 		<meta name="description" content="@yield('description')">
 		<meta name="author" content="{{ $_ENV['MIX_COMPANY'] }}">
-
 		<meta property="og:url" content="{{ $_ENV['MIX_PUBLIC_DOMAIN'] }}">
 		<meta property="og:type" content="website">
 		<meta property="og:site_name" content="{{ $_ENV['MIX_COMPANY'] }}">
 		<meta property="og:title" content="@yield('title')">
 		<meta property="og:description" content="@yield('description')">
 		<meta property="og:image" content="@yield('image')">
-
-		<link rel="apple-touch-icon-precomposed" sizes="144x144" href="{{ assets('img/apple-touch-icon-144-precomposed.png') }}">
-		<link rel="apple-touch-icon-precomposed" sizes="114x114" href="{{ assets('img/apple-touch-icon-114-precomposed.png') }}">
-		<link rel="apple-touch-icon-precomposed" sizes="72x72" href="{{ assets('img/apple-touch-icon-72-precomposed.png') }}">
-		<link rel="apple-touch-icon-precomposed" href="{{ assets('img/apple-touch-icon-57-precomposed.png') }}">
-		<link rel="shortcut icon" href="{{ assets('img/favicon.png') }}">
-
+		<meta name="msapplication-TileColor" content="#e1cf9b">
+		<meta name="msapplication-TileImage" content="{{ assets('favicon/ms-icon-144x144.png') }}">
+		<meta name="theme-color" content="#e1cf9b">
+		<link rel="apple-touch-icon" sizes="57x57" href="{{ assets('favicon/apple-icon-57x57.png') }}">
+		<link rel="apple-touch-icon" sizes="60x60" href="{{ assets('favicon/apple-icon-60x60.png') }}">
+		<link rel="apple-touch-icon" sizes="72x72" href="{{ assets('favicon/apple-icon-72x72.png') }}">
+		<link rel="apple-touch-icon" sizes="76x76" href="{{ assets('favicon/apple-icon-76x76.png') }}">
+		<link rel="apple-touch-icon" sizes="114x114" href="{{ assets('favicon/apple-icon-114x114.png') }}">
+		<link rel="apple-touch-icon" sizes="120x120" href="{{ assets('favicon/apple-icon-120x120.png') }}">
+		<link rel="apple-touch-icon" sizes="144x144" href="{{ assets('favicon/apple-icon-144x144.png') }}">
+		<link rel="apple-touch-icon" sizes="152x152" href="{{ assets('favicon/apple-icon-152x152.png') }}">
+		<link rel="apple-touch-icon" sizes="180x180" href="{{ assets('favicon/apple-icon-180x180.png') }}">
+		<link rel="icon" type="image/png" sizes="192x192" href="{{ assets('favicon/android-icon-192x192.png') }}">
+		<link rel="icon" type="image/png" sizes="32x32" href="{{ assets('favicon/favicon-32x32.png') }}">
+		<link rel="icon" type="image/png" sizes="96x96" href="{{ assets('favicon/favicon-96x96.png') }}">
+		<link rel="icon" type="image/png" sizes="16x16" href="{{ assets('favicon/favicon-16x16.png') }}">
+		<link rel="manifest" href="{{ assets('favicon/manifest.json') }}">
 		<link rel="stylesheet" href="{{ assets('css/normalize.css') }}">
 		<link rel="stylesheet" href="{{ assets('css/bootstrap.min.css') }}">
 		<link rel="stylesheet" href="{{ assets('css/font-awesome-5.10.2.min.css') }}">
@@ -31,6 +38,7 @@
 		<link rel="stylesheet" href="{{ assets('css/style.css') }}">
 		<link rel="stylesheet" href="{{ assets('css/responsive.css') }}">
 		@stack('css')
+		<title>@yield('title') - Waikeri Transmoney</title>
 	</head>
 	<body>		
 		@include('layouts.header')

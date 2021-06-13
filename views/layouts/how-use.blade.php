@@ -19,16 +19,16 @@
 						</a>
 					</div>
 					<div class="video-text">
-						<p class="text">Watch Video Now</p>
+						<p class="text">Ver presentación</p>
 						<span><i class="far fa-clock"></i> 2:32 minutes</span>
 					</div>
 				</div>
 			</div>
 			<div class="col-lg-6">
 				<div class="content">
-					<h3 class="subtitle">Find the cheapest provider</h3>
-					<h2 class="title">It's Really Easy!</h2>
-					<p class="text">Simple process to get provider for your transfer money</p>
+					<h3 class="subtitle">Encuentra al mejor proveedor</h3>
+					<h2 class="title">¡Verdaderamente fácil!</h2>
+					<p class="text">Proceso sencillo para obtener provedores de transferencia de dinero</p>
 				</div>
 				<div class="use-box">
 					<div class="install">
@@ -36,8 +36,8 @@
 							<img src="{{ assets('img/use-icon-1.png') }}" alt="">
 						</div>
 						<div class="text-box">
-							<span>Step 1</span>
-							<h4>Enter your transfer amount</h4>
+							<span>Paso 1</span>
+							<h4>Ingresa el monto a transferir</h4>
 						</div>
 					</div>
 					<div class="install">
@@ -45,8 +45,8 @@
 							<img src="{{ assets('img/use-icon-2.png') }}" alt="">
 						</div>
 						<div class="text-box">
-							<span>Step 2</span>
-							<h4>Compare your options</h4>
+							<span>Paso 2</span>
+							<h4>Compare las opciones</h4>
 						</div>
 					</div>
 					<div class="install">
@@ -54,8 +54,8 @@
 							<img src="{{ assets('img/use-icon-3.png') }}" alt="">
 						</div>
 						<div class="text-box">
-							<span>Step 3</span>
-							<h4>Choose the best option</h4>
+							<span>Paso 3</span>
+							<h4>Elija la mejor opción</h4>
 						</div>
 					</div>
 				</div>
