@@ -25,17 +25,17 @@
 				<select id="sim_origin" class="select-bar">
 					<option value="mex">MEX (MXN)</option>
 					<option value="usa">USA (USD)</option>
-					<option value="bol">BOL (VES)</option>
+					<option value="ven">VEN (VES)</option>
 				</select>
 			</div>
 		</div>
 
 		<p class="text">País destino</p>
 		<div class="country">
-			<img id="destiny_flag" src="{{ assets('img/bol-flag.png') }}" alt="COUNTRY FLAG">
+			<img id="destiny_flag" src="{{ assets('img/ven-flag.png') }}" alt="COUNTRY FLAG">
 			<div class="language-select">
 				<select id="sim_destiny" class="select-bar">
-					<option value="bol">BOL (VES)</option>
+					<option value="ven">VEN (VES)</option>
 					<option value="mex">MEX (MXN)</option>
 					<option value="usa">USA (USD)</option>
 				</select>

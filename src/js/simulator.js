@@ -1,11 +1,11 @@
 $(document).ready(function(e){
 	let exchange = {
-			usa_to_bol: 3245635.12
+			usa_to_ven: 3245635.12
 		,	usa_to_mex: 19.878958
-		,	bol_to_usa: 0.00000030810611
-		,	bol_to_mex: 0.000006125089
+		,	ven_to_usa: 0.00000030810611
+		,	ven_to_mex: 0.000006125089
 		,	mex_to_usa: 0.050304448
-		,	mex_to_bol: 163262.93
+		,	mex_to_ven: 163262.93
 	}
 
 	if( document.querySelector('#simulator') )
@@ -64,7 +64,7 @@ $(document).ready(function(e){
 			let currency	= {
 					usa: 'USD'
 				,	mex: 'MXN'
-				,	bol: 'VES'
+				,	ven: 'VES'
 			}
 
 			if( isNaN(quantity) )
@@ -132,8 +132,8 @@ $(document).ready(function(e){
 			$('#sim_quantity').val(0.00)
 			$('#sim_origin').val('mex').change()
 			$('#sim_origin').parent('.language-select').find('.current').text('MEX (MXN)')
-			$('#sim_destiny').val('bol').change()
-			$('#sim_destiny').parent('.language-select').find('.current').text('BOL (VES)')
+			$('#sim_destiny').val('ven').change()
+			$('#sim_destiny').parent('.language-select').find('.current').text('VEN (VES)')
 
 			$('#origin_comission .amount').html( 0.00 )
 			$('#origin_comission .currency').html( 'MXN' )
