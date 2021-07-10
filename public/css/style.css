@@ -688,6 +688,123 @@ p.text {
   font-weight: 600;
   color: #AF8F34;
 }
+.banner .hero-area .hero-form #step_one_container table.table th {
+  color: #51613c;
+}
+.banner .hero-area .hero-form #step_one_container table.table td {
+  color: #1c2215;
+}
+.banner .hero-area .hero-form #step_two_container .section-title,
+.banner .hero-area .hero-form #step_three_container .section-title,
+.banner .hero-area .hero-form #step_four_container .section-title {
+  font-weight: 500;
+  color: #1c2215;
+  text-transform: uppercase;
+  display: block;
+  text-align: center;
+}
+.banner .hero-area .hero-form #step_two_container form input[type=checkbox],
+.banner .hero-area .hero-form #step_three_container form input[type=checkbox],
+.banner .hero-area .hero-form #step_four_container form input[type=checkbox] {
+  width: 24px;
+  height: 24px;
+}
+.banner .hero-area .hero-form #step_two_container form .label-white,
+.banner .hero-area .hero-form #step_three_container form .label-white,
+.banner .hero-area .hero-form #step_four_container form .label-white {
+  color: #fff;
+}
+.banner .hero-area .hero-form #step_two_container form .form-group:not(.unbackgroundable),
+.banner .hero-area .hero-form #step_three_container form .form-group:not(.unbackgroundable),
+.banner .hero-area .hero-form #step_four_container form .form-group:not(.unbackgroundable) {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 10px;
+  border: 1px solid rgba(255, 255, 255, 0.4);
+  border-radius: 5px;
+  box-shadow: 0px 5px 26.1px 3.9px rgba(81, 97, 60, 0.05);
+  height: 46px;
+  padding: 0 8px;
+  background: rgba(255, 255, 255, 0.17);
+}
+.banner .hero-area .hero-form #step_two_container form .form-group:not(.unbackgroundable) .form-control,
+.banner .hero-area .hero-form #step_three_container form .form-group:not(.unbackgroundable) .form-control,
+.banner .hero-area .hero-form #step_four_container form .form-group:not(.unbackgroundable) .form-control {
+  background: transparent;
+  border: none;
+  font-family: "Poppins", sans-serif;
+  font-size: 16px;
+  line-height: 1.556;
+  font-weight: 400;
+  color: #1c2215;
+}
+.banner .hero-area .hero-form #step_two_container form .form-group:not(.unbackgroundable) .form-control::-moz-placeholder,
+.banner .hero-area .hero-form #step_three_container form .form-group:not(.unbackgroundable) .form-control::-moz-placeholder,
+.banner .hero-area .hero-form #step_four_container form .form-group:not(.unbackgroundable) .form-control::-moz-placeholder {
+  font-family: "Poppins", sans-serif;
+  font-size: 16px;
+  line-height: 1.556;
+  font-weight: 400;
+  color: #51613c;
+}
+.banner .hero-area .hero-form #step_two_container form .form-group:not(.unbackgroundable) .form-control:-ms-input-placeholder,
+.banner .hero-area .hero-form #step_three_container form .form-group:not(.unbackgroundable) .form-control:-ms-input-placeholder,
+.banner .hero-area .hero-form #step_four_container form .form-group:not(.unbackgroundable) .form-control:-ms-input-placeholder {
+  font-family: "Poppins", sans-serif;
+  font-size: 16px;
+  line-height: 1.556;
+  font-weight: 400;
+  color: #51613c;
+}
+.banner .hero-area .hero-form #step_two_container form .form-group:not(.unbackgroundable) .form-control::-moz-placeholder, .banner .hero-area .hero-form #step_three_container form .form-group:not(.unbackgroundable) .form-control::-moz-placeholder, .banner .hero-area .hero-form #step_four_container form .form-group:not(.unbackgroundable) .form-control::-moz-placeholder {
+  font-family: "Poppins", sans-serif;
+  font-size: 16px;
+  line-height: 1.556;
+  font-weight: 400;
+  color: #51613c;
+}
+.banner .hero-area .hero-form #step_two_container form .form-group:not(.unbackgroundable) .form-control:-ms-input-placeholder, .banner .hero-area .hero-form #step_three_container form .form-group:not(.unbackgroundable) .form-control:-ms-input-placeholder, .banner .hero-area .hero-form #step_four_container form .form-group:not(.unbackgroundable) .form-control:-ms-input-placeholder {
+  font-family: "Poppins", sans-serif;
+  font-size: 16px;
+  line-height: 1.556;
+  font-weight: 400;
+  color: #51613c;
+}
+.banner .hero-area .hero-form #step_two_container form .form-group:not(.unbackgroundable) .form-control::placeholder,
+.banner .hero-area .hero-form #step_three_container form .form-group:not(.unbackgroundable) .form-control::placeholder,
+.banner .hero-area .hero-form #step_four_container form .form-group:not(.unbackgroundable) .form-control::placeholder {
+  font-family: "Poppins", sans-serif;
+  font-size: 16px;
+  line-height: 1.556;
+  font-weight: 400;
+  color: #51613c;
+}
+.banner .hero-area .hero-form #step_two_container form .form-group:not(.unbackgroundable) .form-control .colored,
+.banner .hero-area .hero-form #step_three_container form .form-group:not(.unbackgroundable) .form-control .colored,
+.banner .hero-area .hero-form #step_four_container form .form-group:not(.unbackgroundable) .form-control .colored {
+  color: #445132;
+}
+.banner .hero-area .hero-form #step_two_container table.table th,
+.banner .hero-area .hero-form #step_three_container table.table th,
+.banner .hero-area .hero-form #step_four_container table.table th {
+  color: #51613c;
+}
+.banner .hero-area .hero-form #step_two_container table.table td,
+.banner .hero-area .hero-form #step_three_container table.table td,
+.banner .hero-area .hero-form #step_four_container table.table td {
+  color: #1c2215;
+}
+.banner .hero-area .hero-form #step_two_container textarea,
+.banner .hero-area .hero-form #step_three_container textarea,
+.banner .hero-area .hero-form #step_four_container textarea {
+  border: 1px solid rgba(255, 255, 255, 0.4);
+  border-radius: 5px;
+  box-shadow: 0px 5px 26.1px 3.9px rgba(81, 97, 60, 0.05);
+  padding: 4px;
+  background: white;
+}
 .banner .hero-area .hero-form a.button.button-1 {
   border-radius: 20px;
   background-color: #ffb400;
