@@ -33,6 +33,16 @@
 					<li class="nav-item">
 						<a class="nav-link @if(url_contains('contacto')) active @endif" href="{{ $nav_path }}contacto">Contacto</a>
 					</li>
+					@isset( $_SESSION['logged_in'] )
+					<li class="nav-item">
+						<small style="font-size: 14px;">¡Bienvenido {{ $_SESSION['user_name'] }}!</small>
+						<a class="nav-link p-0 text-end" href="{{ $nav_path }}logout">Salir</a>
+					</li>
+					@else
+					<li class="nav-item">
+						<a class="nav-link @if(url_contains('registro')) active @endif" href="{{ $nav_path }}registro">Registro</a>
+					</li>
+					@endisset
 				</ul>
 			</div>
 		</div>

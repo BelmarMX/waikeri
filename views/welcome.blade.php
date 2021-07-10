@@ -67,7 +67,7 @@
 						<div class="text-box">
 							<h3 class="subtitle">Compara y ahorra</h3>
 							<p class="text">
-								En promedio puedes ahorrar hasta un 90% cuando comparas proveedores de tranferencias.
+								En promedio puedes ahorrar hasta un 90% cuando comparas proveedores de transferencias.
 							</p>
 						</div>
 					</div>

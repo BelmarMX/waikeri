@@ -16,8 +16,8 @@
 				<div class="col-lg-7 ">
 					<div class="banner-content">
 						<h2 class="title">Otros servicios</h2>
-						<p class="text">
-							También brinadmos el servicio para fideicomisos públicos y privados, servicio de pagos de factura y servicio a personas morales, asociaciones civiles y demás; al prestar estos servicios, nos esforzamos por brindar la experiencia más eficiente y positiva en dispersar dinero y como agentes pagadores.senectus.
+						<p class="text text-justify">
+							También brindamos el servicio para fideicomisos públicos y privados, servicio de pagos de factura y servicio a personas morales, asociaciones civiles y demás; al prestar estos servicios, nos esforzamos por brindar la experiencia más eficiente y positiva en dispersar dinero y como agentes pagadores.senectus.
 						</p>
 					</div>
 				</div>

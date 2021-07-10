@@ -5,6 +5,12 @@
         "philo/laravel-blade": "^3.1",
         "vlucas/phpdotenv": "^5.3",
         "nesbot/carbon": "^2.47",
-        "phpmailer/phpmailer": "^6.4"
+        "phpmailer/phpmailer": "^6.4",
+        "illuminate/database": "^5.8"
+    },
+    "autoload": {
+        "psr-4": {
+            "Models\\": "Models/"
+        }
     }
 }

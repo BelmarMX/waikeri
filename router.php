@@ -1,6 +1,7 @@
 <?
 /* Router with steampixel/simple-php-router */
 use Steampixel\Route;
+use Illuminate\Support\Facades\DB;
 
 Route::add('/', function() use($blade){
 	return $blade -> view()
@@ -47,6 +48,137 @@ Route::add('/contacto', function() use($blade){
 Route::add('/aviso-privacidad', function() use($blade){
 	return $blade -> view()
 		-> make('aviso')
+		-> render();
+});
+Route::add('/registro', function() use($blade){
+	return $blade -> view()
+		-> make('registro')
+		-> render();
+});
+Route::add('/registro', function() use($blade){
+	require("Models/User.php");
+	$request = json_decode(json_encode( $_POST ));
+
+	$sign_errors = '';
+	if( empty($request -> name) )
+	{
+		$sign_errors .= ' El campo Nombre es requerido.';
+	}
+	if( empty($request -> email) )
+	{
+		$sign_errors .= ' El campo Email es requerido.';
+	}
+	if( empty($request -> phone) || strlen($request -> phone) != 10 || !is_numeric($request -> phone) ) 
+	{
+		$sign_errors .= ' El número telefónico es obligatorio y debe tener 10 dígitos numéricos.'; 
+	}
+	if( empty($request -> password) ) 
+	{
+		$sign_errors .= ' La contraseña es obligatoria.'; 
+	}
+
+	if( !empty($sign_errors) )
+	{
+		$mail_response = [
+				'success' => FALSE
+			,	'message' => 'Debes completar todos los campos: ' . $sign_errors
+		];
+	}
+	else
+	{
+		if( User::create([
+				'name' => $request -> name
+			,	'email' => $request -> email
+			,	'phone' => $request -> phone
+			,	'password' => password_hash($request -> password, PASSWORD_BCRYPT, ['salt' => 'secret_secret_secret_secret'])
+		]) ){
+			$mail_response = [
+					'success' => TRUE
+				,	'message' => 'Registro completado con éxito'
+			];
+			$_SESSION['logged_in'] = $request -> email;
+			$exp = explode(' ', $request -> name);
+			$_SESSION['user_name'] = $exp[0];
+		}
+		else {
+			$mail_response = [
+				'success' => FALSE
+			,	'message' => 'No se pudo completar el registro del usuario.'
+		];
+		}
+	}
+
+	return $blade -> view()
+			-> make('registro')
+			-> with('mail_response', $mail_response)
+			-> render();
+}, ['post']);
+Route::add('/login', function() use($blade){
+	require("Models/User.php");
+	$request = json_decode(json_encode( $_POST ));
+
+	$sign_errors = '';
+	if( empty($request -> email) )
+	{
+		$sign_errors .= ' El campo Email es requerido.';
+	}
+	if( empty($request -> password) ) 
+	{
+		$sign_errors .= ' La contraseña es obligatoria.'; 
+	}
+
+	if( !empty($sign_errors) )
+	{
+		$mail_response = [
+				'success' => FALSE
+			,	'message' => 'Debes completar todos los campos: ' . $sign_errors
+		];
+	}
+	else
+	{
+		if( $user = User::where([
+				'email' => $request -> email
+			,	'password' => password_hash($request -> password, PASSWORD_BCRYPT, ['salt' => 'secret_secret_secret_secret'])
+		]) -> first() )
+		{
+			$mail_response = [
+					'success' => TRUE
+				,	'message' => 'Sesión iniciada'
+			];
+			$_SESSION['logged_in'] = $user -> email;
+			$exp = explode(' ', $user -> name);
+			$_SESSION['user_name'] = $exp[0];
+		}
+		else
+		{
+			$mail_response = [
+				'success' => FALSE
+			,	'message' => 'Credenciales del usuario incorrectas'
+		];
+		}
+	}
+
+	return $blade -> view()
+			-> make('registro')
+			-> with('mail_response', $mail_response)
+			-> render();
+
+}, ['post']);
+Route::add('/logged-in', function() use($blade){
+	return $blade -> view()
+		-> make('is_logged')
+		-> render();
+});
+Route::add('/logout', function() use($blade){
+	unset( $_SESSION['logged_in'] );
+
+	return $blade -> view()
+			-> make('registro')
+			-> render();
+});
+Route::add('/signin-test', function() use($blade){
+	return $blade -> view()
+		-> make('is_logged')
 		-> render();
 });
 

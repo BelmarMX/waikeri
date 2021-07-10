@@ -1,4 +1,6 @@
 <?php
+session_start();
+
 /* require autoload files for PSR-7 */
 $root_dir = __DIR__.'/../';
 require __DIR__.'/../vendor/autoload.php';
@@ -8,6 +10,9 @@ require __DIR__.'/../app/functions/index.php';
 use Dotenv\Dotenv;
 $dotenv = Dotenv::createImmutable($root_dir);
 $dotenv -> load();
+
+use Models\Database;
+new Database();
 
 /* blade configuration */
 use Philo\Blade\Blade;

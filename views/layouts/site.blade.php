@@ -54,6 +54,7 @@
 		<script src="{{ assets('js/plugin/jquery.magnific-popup.min.js') }}"></script>
 		<script src="{{ assets('js/plugin/jquery.nice-select.min.js') }}"></script>
 		<script src="{{ assets('js/main.js') }}"></script>
+		<script src="{{ assets('js/simulator.js') }}"></script>
 		@stack('js')
 	</body>
 </html>
