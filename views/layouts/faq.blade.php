@@ -15,98 +15,97 @@
 			<div class="col-lg-9">
 				<div class="accordion" id="accordionExample">
 					<div class="accordion-item">
-						<h2 class="accordion-header" id="headingOne">
+						<h2 class="accordion-header">
 							<button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
-								data-bs-target="#collapseOne" aria-expanded="false" aria-controls="collapseOne">
+								data-bs-target="#c1">
 								<img src="{{ assets('img/faq-icon.png') }}" alt="" class="icon">
-								¿Cómo puedo usar Waikeri para encontrar la mejor opción para transferir dinero?
+								¿Qué es una remesa?
 							</button>
 						</h2>
-						<div id="collapseOne" class="accordion-collapse collapse" aria-labelledby="headingOne"
-							data-bs-parent="#accordionExample">
+						<div id="c1" class="accordion-collapse collapse">
 							<div class="accordion-body">
-								Actualmente, Waikeri ofrece servicios en Bélgica, Canadá, Dinamarca, Finlandia, Francia, Alemania, Irlanda, Italia, Países Bajos, Noruega, España, Suecia, Reino Unido y Estados Unidos.
-								Te actualizaremos cuando ampliemos el lista. CPP para la consola AppTig solo permite jugar a jugadores de otras consolas juntos en los mismos grupos de emparejamiento.
+								Son envíos de dinero que realizan las personas que residen en un país a personas que residen en otro país y dentro del mismo país a aquellas personas no bancarizadas.
 							</div>
 						</div>
 					</div>
+
 					<div class="accordion-item">
-						<h2 class="accordion-header" id="headingTwo">
+						<h2 class="accordion-header">
 							<button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
-								data-bs-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+								data-bs-target="#c2">
 								<img src="{{ assets('img/faq-icon.png') }}" alt="" class="icon">
-								¿Cómo puedo usar Waikeri para encontrar la mejor opción para transferir dinero?
+								¿Cómo se realiza una remesa?
 							</button>
 						</h2>
-						<div id="collapseTwo" class="accordion-collapse collapse" aria-labelledby="headingTwo"
-							data-bs-parent="#accordionExample">
+						<div id="c2" class="accordion-collapse collapse">
 							<div class="accordion-body">
-								Actualmente, Waikeri ofrece servicios en Bélgica, Canadá, Dinamarca, Finlandia, Francia, Alemania, Irlanda, Italia, Países Bajos, Noruega, España, Suecia, Reino Unido y Estados Unidos.
-								Te actualizaremos cuando ampliemos el lista. CPP para la consola AppTig solo permite jugar a jugadores de otras consolas juntos en los mismos grupos de emparejamiento.
+								Los envíos que efectúa el residente en el exterior los hace a través de una entidad financiera o una compañía especializada en el envío de dinero, para lo cual esa entidad o compañía debe de poseer una sucursal o convenio con alguna institución en el país receptor de la transferencia. De esa manera el receptor puede efectuar el cobro del envío.
 							</div>
 						</div>
 					</div>
+
 					<div class="accordion-item">
-						<h2 class="accordion-header" id="headingThree">
+						<h2 class="accordion-header">
 							<button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
-								data-bs-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+								data-bs-target="#c3">
 								<img src="{{ assets('img/faq-icon.png') }}" alt="" class="icon">
-								¿Cómo puedo usar Waikeri para encontrar la mejor opción para transferir dinero?
+								¿Qué hay que tomar en cuenta a la hora de realizar un envío de remesa?
 							</button>
 						</h2>
-						<div id="collapseThree" class="accordion-collapse collapse" aria-labelledby="headingThree"
-							data-bs-parent="#accordionExample">
+						<div id="c3" class="accordion-collapse collapse">
 							<div class="accordion-body">
-								Actualmente, Waikeri ofrece servicios en Bélgica, Canadá, Dinamarca, Finlandia, Francia, Alemania, Irlanda, Italia, Países Bajos, Noruega, España, Suecia, Reino Unido y Estados Unidos.
-								Te actualizaremos cuando ampliemos el lista. CPP para la consola AppTig solo permite jugar a jugadores de otras consolas juntos en los mismos grupos de emparejamiento.
+								<ol type="a">
+									<li>Comisiones y otros gastos que deberás pagar.</li>
+									<li>Comisiones, gastos e impuestos que le serán cobrados a la persona que reciba el dinero en el momento de retirarlo.</li>
+									<li>Límites máximo y mínimo de envío, igualmente la documentación personal a presentar ante el ejecutivo de cuenta o en la aplicación y/o página web.</li>
+									<li>Tiempo que demoran los fondos en estar disponibles para tus familiares.</li>
+									<li>Tipo o tasa de cambio a aplicar para convertir el dinero que usted envió  en la moneda de curso legal del país del beneficiario de la transferencia/remesa.</li>
+								</ol>
 							</div>
 						</div>
 					</div>
+
 					<div class="accordion-item">
-						<h2 class="accordion-header" id="headingFour">
+						<h2 class="accordion-header">
 							<button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
-								data-bs-target="#collapseFour" aria-expanded="false" aria-controls="collapseFour">
+								data-bs-target="#c4">
 								<img src="{{ assets('img/faq-icon.png') }}" alt="" class="icon">
-								¿Cómo puedo usar Waikeri para encontrar la mejor opción para transferir dinero?
+								¿Qué documento deben presentar para retirar un giro o remesa?
 							</button>
 						</h2>
-						<div id="collapseFour" class="accordion-collapse collapse" aria-labelledby="headingFour"
-							data-bs-parent="#accordionExample">
+						<div id="c4" class="accordion-collapse collapse">
 							<div class="accordion-body">
-								Actualmente, Waikeri ofrece servicios en Bélgica, Canadá, Dinamarca, Finlandia, Francia, Alemania, Irlanda, Italia, Países Bajos, Noruega, España, Suecia, Reino Unido y Estados Unidos.
-								Te actualizaremos cuando ampliemos el lista. CPP para la consola AppTig solo permite jugar a jugadores de otras consolas juntos en los mismos grupos de emparejamiento.
+								Solamente debe presentarse la Cédula de Identidad en caso de Venezuela y copia en blanco y negro legible de la misma. En México INE y dependiendo del monto otros documentos que le serán requeridos al momento.
 							</div>
 						</div>
 					</div>
+
 					<div class="accordion-item">
-						<h2 class="accordion-header" id="headingFive">
+						<h2 class="accordion-header">
 							<button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
-								data-bs-target="#collapseFive" aria-expanded="false" aria-controls="collapseFive">
+								data-bs-target="#c5">
 								<img src="{{ assets('img/faq-icon.png') }}" alt="" class="icon">
-								¿Cómo puedo usar Waikeri para encontrar la mejor opción para transferir dinero?
+								¿Puedo recibir de manera directa a una cuenta bancaria a mi nombre la remesa?
 							</button>
 						</h2>
-						<div id="collapseFive" class="accordion-collapse collapse" aria-labelledby="headingFive"
-							data-bs-parent="#accordionExample">
+						<div id="c5" class="accordion-collapse collapse">
 							<div class="accordion-body">
-								Actualmente, Waikeri ofrece servicios en Bélgica, Canadá, Dinamarca, Finlandia, Francia, Alemania, Irlanda, Italia, Países Bajos, Noruega, España, Suecia, Reino Unido y Estados Unidos.
-								Te actualizaremos cuando ampliemos el lista. CPP para la consola AppTig solo permite jugar a jugadores de otras consolas juntos en los mismos grupos de emparejamiento.
+								En el Sistema Financiero actual existe una serie de alternativas que ofrecen la facilidad de recibir giros del exterior en una cuenta de ahorro o cheques. Consulta con tu Institución Financiera de confianza las alternativas que tienen para ti y los costos asociados al utilizar este medio para el pago de tu remesa, algunas cobran por ese servicio en divisas, lo que te incrementará el gasto por este servicio.
 							</div>
 						</div>
 					</div>
+
 					<div class="accordion-item">
-						<h2 class="accordion-header" id="headingSix">
+						<h2 class="accordion-header">
 							<button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
-								data-bs-target="#collapseSix" aria-expanded="false" aria-controls="collapseSix">
+								data-bs-target="#c6">
 								<img src="{{ assets('img/faq-icon.png') }}" alt="" class="icon">
-								¿Cómo puedo usar Waikeri para encontrar la mejor opción para transferir dinero?
+								¿Cuánto tiempo puede durar la remesa sin cobrarse?
 							</button>
 						</h2>
-						<div id="collapseSix" class="accordion-collapse collapse" aria-labelledby="headingSix"
-							data-bs-parent="#accordionExample">
+						<div id="c6" class="accordion-collapse collapse">
 							<div class="accordion-body">
-								Actualmente, Waikeri ofrece servicios en Bélgica, Canadá, Dinamarca, Finlandia, Francia, Alemania, Irlanda, Italia, Países Bajos, Noruega, España, Suecia, Reino Unido y Estados Unidos.
-								Te actualizaremos cuando ampliemos el lista. CPP para la consola AppTig solo permite jugar a jugadores de otras consolas juntos en los mismos grupos de emparejamiento.
+								De 7 días hasta 3 meses dependiendo del agente corresponsal. Una vez pasado este tiempo se anula la orden y el giro se regresa al país o cuenta de origen en caso de ser nacional.
 							</div>
 						</div>
 					</div>
