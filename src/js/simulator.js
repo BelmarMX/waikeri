@@ -101,19 +101,19 @@ $(document).ready(function(e){
 				total_destiny = 0.00
 			}
 			
-			$('#origin_comission .amount').html( comission_origin.toFixed(2) )
+			$('#origin_comission .amount').html( format_number(comission_origin) )
 			$('#origin_comission .currency').html( currency[origin] )
-			$('#destiny_comission .amount').html( comission_destiny.toFixed(2) )
+			$('#destiny_comission .amount').html( format_number(comission_destiny) )
 			$('#destiny_comission .currency').html( currency[destiny] )
 
-			$('#origin_total .amount').html( total_origin.toFixed(2) )
+			$('#origin_total .amount').html( format_number(total_origin) )
 			$('#origin_total .currency').html( currency[origin] )
-			$('#destiny_total .amount').html( total_destiny.toFixed(2) )
+			$('#destiny_total .amount').html( format_number(total_destiny) )
 			$('#destiny_total .currency').html( currency[destiny] )
 
 			$('#conversion_rate .currency_destiny').html( currency[destiny] )
 			$('#conversion_rate .currency_origin').html( currency[origin] )
-			$('#conversion_rate .equals_to').html( change.toFixed(6) )
+			$('#conversion_rate .equals_to').html( format_number(change, 6) )
 
 			return {
 					quantity
@@ -158,19 +158,25 @@ $(document).ready(function(e){
 			let beneficiario_name	= name_beneficiario.split(" ")[0]
 			let sucursal_code		= 403020
 			let account_number		= 1488729751
-			let message				= `Hola ${beneficiario_name}, te he realizado una transferencia de $${amounts.total_destiny.toFixed(2)} ${amounts.currency_destiny}`
+			let message				= `Hola ${beneficiario_name}, te he realizado una transferencia de $${ format_number(amounts.total_destiny)} ${amounts.currency_destiny}`
 
 
-			$('#res_total_sent').html( amounts.quantity.toFixed(2) )
-			$('#res_comission').html( amounts.comission_origin.toFixed(2) )
-			$('#res_total_original').html( amounts.total_origin.toFixed(2) )
-			$('#res_conversion').html( amounts.total_destiny.toFixed(2) )
+			$('#res_total_sent').html( format_number(amounts.quantity) )
+			$('#res_comission').html( format_number(amounts.comission_origin) )
+			$('#res_total_original').html( format_number(amounts.total_origin) )
+			$('#res_conversion').html( format_number(amounts.total_destiny) )
 			$('.res_origin_currency').html(amounts.currency_origin)
 			$('.res_destiny_currency').html(amounts.currency_destiny)
 			$('#res_first_name_beneficiario').html(beneficiario_name)
 			$('#res_beneficiario_name').html(name_beneficiario)
 			$('#res_beneficiario_email').html(mail_beneficiario)
 			$('#sim_beneficiario_mensaje').attr('placeholder', message)
+		}
+
+		function format_number( number )
+		{
+			console.log('reformatting')
+			return number.toFixed(2).toString().replace(/\B(?=(\d{3})+(?!\d))/g, ',')
 		}
 	}
 })
